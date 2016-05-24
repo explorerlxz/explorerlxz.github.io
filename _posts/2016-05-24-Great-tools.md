@@ -6,11 +6,12 @@ date:   2016-05-24
 
 
 ##Shadowsocks
+
 [GFW.Press](http://gfw.press/user/invite.php)每天免费领取20G流量
 >网站需翻墙
 
 |No.|邀请码|状态|
-|:-|:-:|:-:|
+|:-|:-|:-:|
 |0 |  24533xZTRiYmQ2MzkzYzkxMTFlNjU  |  可用|
 |1| 24533yY2I5NjJhYzU5MDc1Yjk2NGI   |可用|
 |2| 24533ZGQ0YWEwMDQ4YjE4N2Y3MTgy   |可用|
@@ -21,6 +22,7 @@ date:   2016-05-24
 |7| 24533kxZTBhNjUzYmExOWRmODFhOT   |可用|
 
 ##BitTorrent Sync
+
 [编程随想](https://github.com/programthink/books)的电子书
 
 ```
@@ -39,4 +41,5 @@ BTLZ4A4UD3PEWKPLLWEOKH3W7OQJKFPLG    （最后这个不是电子书，是翻墙�
 ```
 
 ##Google云输入法
+
 [Google云输入法](https://www.google.com/inputtools/try/)
