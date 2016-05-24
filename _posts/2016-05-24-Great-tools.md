@@ -45,5 +45,5 @@ BTLZ4A4UD3PEWKPLLWEOKH3W7OQJKFPLG    （最后这个不是电子书，是翻墙�
 [Google云输入法](https://www.google.com/inputtools/try/)
 ![Russian](https://explorerlxz.github.io/images/google-inputtools-ru.png)
 ![Chinese](https://explorerlxz.github.io/images/google-inputtools-cn.png)
-![Chinese(https://explorerlxz.github.io/images/google-inputtools-chinese.png)
+![Chinese](https://explorerlxz.github.io/images/google-inputtools-chinese.png)
 
