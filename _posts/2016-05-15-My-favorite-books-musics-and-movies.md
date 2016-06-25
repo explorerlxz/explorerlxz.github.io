@@ -129,3 +129,9 @@ BUPSDXFA3TP7KCMLHALRHLIX2FEJEUJFE    IT（信息技术）
 
 BTLZ4A4UD3PEWKPLLWEOKH3W7OQJKFPLG    （最后这个不是电子书，是翻墙工具的汇总）
 ```
+
+### 作为程序员打算看的书
+
+<Code Complete>
+<Clean Code>
+<Refactoring: Improving the Design of Existing Code>
