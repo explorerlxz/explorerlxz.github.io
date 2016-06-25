@@ -132,8 +132,9 @@ BTLZ4A4UD3PEWKPLLWEOKH3W7OQJKFPLG    （最后这个不是电子书，是翻墙�
 
 ### 作为程序员打算看的书
 
-```
-<Code Complete>
-<Clean Code>
-<Refactoring: Improving the Design of Existing Code>
-```
+|Book Name|译名|作者|备注|
+|:-:|:-:|:-:|:-|
+| < Code Complete > |《代码大全》|Steve McConnell|书名翻译令人误解，应译为完备代码|
+| < Clean Code: A Handbook of Agile Software Craftsmanship > |《無瑕的程式碼：敏捷軟體開發技巧守則》| Robert C. Martin ||
+| < The Clean Coder：A Code of Conduct for Professional Programmers > |《干净编码者——专业级程序员编码法典》| Robert C. Martin ||
+| < Refactoring: Improving the Design of Existing Code > |《重构:改善既有代码的设计》|Martin Fowler||
