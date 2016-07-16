@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "一些书、电影和音乐"
+title:  "一些书、电影、电视剧和音乐"
 date:   2016-05-15
 ---
 
@@ -18,6 +18,8 @@ date:   2016-05-15
 | «Цинковые мальчики»|《锌皮娃娃兵》|1989||
 | «Чернобыльская молитва»|《切尔诺贝利的悲鸣》|1997||
 |  «Время секонд хэнд»|《二手时间》|2013|访谈，苏联解体后二十年来普通人对苏联俄罗斯的看法|
+
+**东野圭吴**《白夜行》
 
 **甘地**《我体验真理故事》<The Story of My Experiments with Truth>
 
@@ -63,39 +65,54 @@ date:   2016-05-15
 
 |作品列表|国家|导演|标签|备注|
 |:-:|:-:|:-:|:-:|:-|
-|3 idiots|印度||||
-|Life of Pi|印度|李安|奇幻||
-|一九四二|中国||历史||
-|活着|中国||苦难、人生||
-|霸王别姬|中国|陈凯歌|苦难、人生||
-|Avatar|美国|James Francis Cameron|奇幻|好看|
-|十年|香港||大陆禁播||
-|海角七号|台湾|魏德圣|爱情|音乐好听|
+|《3 idiots》|印度||||
+|《Life of Pi》|印度|李安|奇幻||
+|《一九四二》|中国||历史||
+|《活着》|中国||苦难、人生||
+|《霸王别姬》|中国|陈凯歌|苦难、人生||
+|《阿凡达》|美国|James Francis Cameron|奇幻|Avatar|
+|《十年》|香港||大陆禁播||
+|《海角七号》|台湾|魏德圣|爱情|音乐好听|
+|《拳霸》《冬荫功》系列|泰国|托尼贾|动作||
+|《终极斗士》系列|美国|艾萨克·佛罗伦汀|监狱，动作|Undisputed|
+|《新年枞树》系列|提莫·贝克曼贝托夫|温馨，爱情，感人|Ёлки|
 
+最喜欢的武打明星Tony Jaa，Scott Adkins，Lateef Crowder，Jack Chen, Bluce Lee……
+
+### 电视剧
+
+|作品列表|国家|导演|标签|备注|
+|:-:|:-:|:-:|:-:|:-|
+|《Stargate Atlanti》|American||Adventure,Science,Fiction|《星际之门：亚特兰蒂斯》|
+|《Atlantis》|British|Johnny Capps,Julian Murph|Adventure,Fantasy,Drama,Romance||
+|《The Big Bang Theory》|America|Mark Cendrowski|comedy||
+|《Game of Thrones》|America||奇幻，战争，大尺度||
+|《Mr. Robot》|America|Sam Esmail,Steve Golin,Chad Hamilton,Igor Srubshchik,Christian Slater|hacker, crime, life|《黑客军团》|
+|《白夜行》|日本|石丸彰彦|虐心，爱情||
+|《幽灵》|韩国|金亨植、朴信宇|hacker,crime||
+|《切尔诺贝利·禁区》|Russian||切尔诺贝利，惊悚|<Чернобыль. Зона отчуждения >|
+|《不要漂亮要幸福》|Russian||comedy||
+|《实习医生》|Russian||comedy||
+|《体育老师》|Russian||comedy||
 
 ###  音乐
 
 
 |歌手|歌名|
 |:-:|:-:|
-|CRITTY | 杏花弦外雨|
+|筷子兄弟|小苹果，每个人都看到了希望……|
+|梁静茹|宁夏，暖暖……|
+|许巍|故乡，蓝莲花……|
+|凤凰传奇|策马扬鞭……|
 |Gorky Park | Moscow Calling|
 |Kim Taylor | I Am You|
 |Nightwish | Last Ride of the Day|
 |东来东往 | 海角七号|
 |中孝介,范逸臣 | 野玫瑰|
-|于魁智 | 《武家坡》 薛平贵 王宝钏 苏龙魏虎为媒证|
-|刘英 | 六字开门|
-|同恩,夏雨童 | 爱你爱到死|
-|庄心妍 | 以后的以后|
 |张国荣 | 千千阙歌|
 |慕容晓晓 | 失恋阵线联盟(京剧)|
 |李丹阳 | 红月亮|
-|李胜素 | 女起解-苏三-苏三离开了洪洞县|
 |毛阿敏 | 相思|
-|汪苏泷,By2 | 有点甜|
-|筷子兄弟 | 小苹果|
-|群星 | 喜庆|
 |苏运莹 | 野子|
 |范逸臣 | 无乐不作(电影版)|
 |草蜢 | 失恋阵线联盟|
