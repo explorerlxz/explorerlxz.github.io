@@ -90,7 +90,7 @@ date:   2016-05-15
 |《Mr. Robot》|America|Sam Esmail,Steve Golin,Chad Hamilton,Igor Srubshchik,Christian Slater|hacker, crime, life|《黑客军团》|
 |《白夜行》|日本|石丸彰彦|虐心，爱情||
 |《幽灵》|韩国|金亨植、朴信宇|hacker,crime||
-|《切尔诺贝利·禁区》|Russian||切尔诺贝利，惊悚|<Чернобыль. Зона отчуждения >|
+|《切尔诺贝利·禁区》|Russian||切尔诺贝利，惊悚|《Чернобыль. Зона отчуждения》|
 |《不要漂亮要幸福》|Russian||comedy||
 |《实习医生》|Russian||comedy||
 |《体育老师》|Russian||comedy||
