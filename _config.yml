@@ -9,12 +9,12 @@
 title: explorer's blog
 email: explorerlxz@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-    看书、看書、read books…
+    博客的意义在于未来能够对别人说：看到现在的你就想起了当初的我。唉！往事不堪回首……
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://explorerlxz.github.io" # the base hostname & protocol for your site
 twitter_username: explorerlxz
-github_username:  explorerlxz
+github_username: explorerlxz 
 images:
-    background:url(/images/background.jpg)
+    background:url(https://explorerlxz.github.io/images/background.jpg)
 # Build settings
 markdown: kramdown
