@@ -61,39 +61,39 @@ date:   2016-05-15
 
 **王东**的《别跟我说你懂日本》
 
-### 电影
+### 电影 & 电视剧
 
-|作品列表|国家|导演|标签|备注|
-|:-:|:-:|:-:|:-:|:-|
-|《3 idiots》|印度||||
+|电影列表|国家|导演|标签|备 注|
+|:-|:-|:-|:-|:-|
+|《三傻大闹宝莱坞》|印度|||《3 Idiots》|
 |《Life of Pi》|印度|李安|奇幻||
 |《一九四二》|中国||历史||
 |《活着》|中国||苦难、人生||
 |《霸王别姬》|中国|陈凯歌|苦难、人生||
-|《阿凡达》|美国|James Francis Cameron|奇幻|Avatar|
+|《阿凡达》|美国|James Cameron|奇幻|Avatar|
 |《十年》|香港||大陆禁播||
 |《海角七号》|台湾|魏德圣|爱情|音乐好听|
 |《拳霸》《冬荫功》系列|泰国|托尼贾|动作||
-|《终极斗士》系列|美国|艾萨克·佛罗伦汀|监狱，动作|Undisputed|
-|《新年枞树》系列|提莫·贝克曼贝托夫|温馨，爱情，感人|Ёлки|
+|《终极斗士》系列|美国|艾萨克·佛罗伦汀|监狱，动作|《Undisputed》|
+|《新年枞树》系列|俄罗斯|提莫·贝克曼贝托夫|温馨，爱情|《Ёлки》|
 
-最喜欢的武打明星Tony Jaa，Scott Adkins，Lateef Crowder，Jack Chen, Bluce Lee……
+<p></p>
 
-### 电视剧
+最喜欢的武打明星Tony Jaa，Scott Adkins，Lateef Crowder，成龙，李小龙……
 
-|作品列表|国家|导演|标签|备注|
-|:-:|:-:|:-:|:-:|:-|
-|《Stargate Atlanti》|American||Adventure,Science,Fiction|《星际之门：亚特兰蒂斯》|
-|《Atlantis》|British|Johnny Capps,Julian Murph|Adventure,Fantasy,Drama,Romance||
-|《The Big Bang Theory》|America|Mark Cendrowski|comedy||
-|《Game of Thrones》|America||奇幻，战争，大尺度||
-|《Mr. Robot》|America|Sam Esmail,Steve Golin,Chad Hamilton,Igor Srubshchik,Christian Slater|hacker, crime, life|《黑客军团》|
-|《白夜行》|日本|石丸彰彦|虐心，爱情||
-|《幽灵》|韩国|金亨植、朴信宇|hacker,crime||
-|《切尔诺贝利·禁区》|Russian||切尔诺贝利，惊悚|《Чернобыль. Зона отчуждения》|
-|《不要漂亮要幸福》|Russian||comedy||
-|《实习医生》|Russian||comedy||
-|《体育老师》|Russian||comedy||
+| 电 视 剧 列 表 |国 家|标 签|备 注|
+|:-|:-|:-|:-|:-|
+|《Stargate Atlanti》|American|Science,Fiction|《星际之门：亚特兰蒂斯》|
+|《Atlantis》|British|Adventure,Fantasy|《亚特兰迪斯》|
+|《The Big Bang Theory》|America|comedy|《生活大爆炸》|
+|《Game of Thrones》|America|奇幻，战争，大尺度|《权利的游戏》|
+|《Mr. Robot》|America|hacker, crime, life|《黑客军团》|
+|《白夜行》|日本|虐心，爱情||
+|《幽灵》|韩国|hacker,crime||
+|《切尔诺贝利·禁区》|Russian|切尔诺贝利，惊悚|《Чернобыль. Зона отчуждения》|
+|《不要漂亮要幸福》|Russian|comedy||
+|《实习医生》|Russian|comedy||
+|《体育老师》|Russian|comedy||
 
 ###  音乐
 
@@ -123,10 +123,6 @@ date:   2016-05-15
 |黄安 | 新鸳鸯蝴蝶梦|
 |齐晨 | 咱们结婚吧|
 
-
-### 常用的网站
-
-[trackrok](http://www.trackerok.com/)
 
 
 ----------------
