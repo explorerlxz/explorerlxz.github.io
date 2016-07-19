@@ -1,15 +1,13 @@
 ---
 layout: page
-title: About
+title: 关于我
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+放荡不羁，热爱自由，追求技术，追求完美！
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+一个普普通通的肄业生，暂时没有远大的理想。
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+梦想着有一天可以出国，游泳，攀岩，骑行……
+
+还想要有一天拥有八块腹肌外加人鱼线，胳膊像小腿一样粗，啦啦啦，就这样了！
