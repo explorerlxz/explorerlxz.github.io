@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "常用网站及工具汇总"
+title:  "常用网站及工具汇总，长期更新"
 date:   2016-05-24
 ---
 
@@ -18,6 +18,7 @@ date:   2016-05-24
 |[torrenthound](http://www.torrenthound.com)|magnet|
 |[Russian Torrent](http://new-rutor.org/)|magnet|
 |[王垠博客](https://www.yinwang.org)|干货|
+|[冯大辉的博客](http://dbanotes.net/)|干货
 |[编程随想的博客](https://program-think.blogspot.com)|干货|
 |[GFW.Press大杀器](http://gfw.press/)|Fuck GFW|
 |[Twitter](https://twitter.com)||
@@ -28,6 +29,10 @@ date:   2016-05-24
 |[盾眼](http://www.yundun.com/report/ccwaf)|WAF/CC|
 |[Google云输入法](https://www.google.com/inputtools/try/)||
 |[FreeLance](http://www.freelance.com/)|接单平台|
+|[Feed reader](http://feedreader.com/)||
+|[W3school](http://www.w3school.com.cn/)|前端知识|
+|[jekyll](https://jekyllrb.com)||
+
 
 
 ## BitTorrent Sync
