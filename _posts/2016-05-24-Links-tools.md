@@ -29,10 +29,11 @@ date:   2016-05-24
 |[盾眼](http://www.yundun.com/report/ccwaf)|WAF/CC|
 |[Google云输入法](https://www.google.com/inputtools/try/)||
 |[FreeLance](http://www.freelance.com/)|接单平台|
+|[iWriter](https://www.iwriter.com/)|网上作家|
 |[Feed reader](http://feedreader.com/)||
 |[W3school](http://www.w3school.com.cn/)|前端知识|
 |[jekyll](https://jekyllrb.com)||
-
+|[Learn CSS Layout](http://learnlayout.com/)|CSS布局|
 
 
 ## BitTorrent Sync
@@ -53,4 +54,8 @@ BUPSDXFA3TP7KCMLHALRHLIX2FEJEUJFE    IT（信息技术）
 
 BTLZ4A4UD3PEWKPLLWEOKH3W7OQJKFPLG    （最后这个不是电子书，是翻墙工具的汇总）
 ```
+
+## Good Articles & Links
+
+ - **Quora** : [What is the best and easiest way to earn 10$ per day on the Internet?](https://www.quora.com/What-is-the-best-and-easiest-way-to-earn-10-per-day-on-the-internet)
 
