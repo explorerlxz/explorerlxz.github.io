@@ -14,6 +14,7 @@ date:   2016-05-24
 |[Quora](https://www.quora.com)|国外问答社区|
 |[高清mp4吧](http://www.mp4ba.com/)|magnet|
 |[kickasstorrents](https://kat.cr/)|magnet|
+|[Torrentz](https://torrentz.eu/)|magnet|
 |[The Pirate Bay](https://gameofbay.org)|magnet|
 |[torrenthound](http://www.torrenthound.com)|magnet|
 |[Russian Torrent](http://new-rutor.org/)|magnet|
