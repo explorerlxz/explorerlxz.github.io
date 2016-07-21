@@ -35,6 +35,8 @@ date:   2016-05-24
 |[W3school](http://www.w3school.com.cn/)|前端知识|
 |[jekyll](https://jekyllrb.com)||
 |[Learn CSS Layout](http://learnlayout.com/)|CSS布局|
+|[Gates Notes](https://www.gatesnotes.com/)|比尔盖茨读书笔记|
+|[Mark Zuckberge](http://www.ayearofbooks.net/)|马克扎克伯格读书笔记|
 
 
 ## BitTorrent Sync

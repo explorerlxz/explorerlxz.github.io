@@ -4,11 +4,37 @@ title:  "一些书、电影、电视剧和音乐"
 date:   2016-05-15
 ---
 
-**林语堂**《吾国与吾民》（注：大部分版本第十章被删掉了）
+## <center> 经 典 必 读 </center>
 
-**高尔泰**《寻找家园》（注：国内版均有删改）
+|华人作者|代表作品|标 签|备 注|
+|:-|:-|:-|:-|:-|
+|**刘震云**|《温故一九四二》|苦难人生||
+|**林语堂**|《吾国与吾民》|中国|删减|
+|**高尔泰**|《寻找家园》|苦难人生|删改|
+|**冯骥才**|《一百个人的十年》|苦难人生||
+|**李  锐**|《无风之树》、《北京的红太阳》|苦难人生||
+|**阎连科**||苦难人生|| 
+|**余  华**|《活着》|苦难人生||
+|**严歌苓**|《陆犯焉识》|苦难人生||
+|**柏  杨**|《丑陋的中国人》、《中国人史纲》|中国||
+|**赵紫阳**|《改革历程》|政治|禁书|
+|**路  遥**|《人生》、《平凡的世界》|小说|经典|
+|**龙应台**|《大江大海一九四九》、《野火集》|史实|删禁|
+|**任志强**|《任他评说》|||
+|**芮成钢**|《三十而励》、《虚实之间》|个人传记||
 
-作者：斯韦特兰娜·亚历山德罗夫娜·阿列克谢耶维奇
+
+<p></p>
+<p></p>
+
+|国外作者|代表作品|标 签|备 注|
+|:-|:-|:-|:-|:-|
+|**乔治·奥威尔**|《一九八四》、《动物农场》|小说||
+
+
+
+### <center> 斯韦特兰娜·亚历山德罗夫娜·阿列克谢耶维奇 </center>
+
 原名：Святлана Аляксандраўна Алексіевіч
 
 |作品列表|中文名|时间|备注|
@@ -23,45 +49,39 @@ date:   2016-05-15
 
 **甘地**《我体验真理故事》<The Story of My Experiments with Truth>
 
-**路遥**的《平凡的世界》、《人生》
-
-**余华**的《活着》
-
-**龙应台**的《野火集》、《大江大海一九四九》、《亲爱的安德烈》
-
-**严歌苓**的《陆犯焉识》
-
-**柏杨**的《丑陋的中国人》、《中国人史纲》
-
 **王小波**
 
 **张爱玲**
 
 **鲁思·本尼迪克特(Ruth Benedict)**《菊与刀》<The Chrysanthemum and the Sword>
 
-**乔治·奥威尔**的《一九八四》
-
-**赵紫阳**的《改革历程》
-
 **高行健**的《一个人的圣经》、《灵山》
 
 **托马斯·弗里德曼(Thomas L. Friedman)**的 《世界是平的》<The World Is Flat: A Brief History of the Twenty-first Century>
 
-**任志强**的《任他评说》
+### <center>  作为程序员打算看的书 </center>
+ 
+| Book  Name |译名|作者|备注|
+|:-|:-|:-|:-|
+|《Code Complete 》 |《代码大全》|Steve McConnell||
+|《Clean Code: A Handbook of Agile Software Craftsmanship》 |《無瑕的程式碼：敏捷軟體開發技巧守則》| Robert C. Martin ||
+|《The Clean Coder：A Code of Conduct for Professional Programmers》 |《干净编码者——专业级程序员编码法典》| Robert C. Martin ||
+|《Refactoring: Improving the Design of Existing Code》 |《重构:改善既有代码的设计》|Martin Fowler||
+|《UNIX痛恨者手册》||||
 
-**芮成钢**的《三十而励》、《虚实之间》
 
-**郎咸平**的《郎咸平说我们的日子为什么这么难》
+### <center> 消遣读物 </center>
 
-**李锐**的《无风之树》
+|作 者|作 品|标 签|备 注|
+|:-|:-|:-|:-|:-|
+|**毕飞宇**|《推拿》|盲人||
+|**兰道尔•门罗**|《那些古怪又让人忧心的问题》|有趣|[What if?](https://what-if.xkcd.com/)|
 
-**阎连科**的《为人民服务》
+<p></p>
 
-**冯骥才**《一百个人的十年》
+<p></p>
 
-**王东**的《别跟我说你懂日本》
-
-### 电影 & 电视剧
+## <center> 电影 & 电视剧 </center>
 
 |电影列表|国家|导演|标签|备 注|
 |:-|:-|:-|:-|:-|
@@ -95,7 +115,10 @@ date:   2016-05-15
 |《实习医生》|Russian|comedy||
 |《体育老师》|Russian|comedy||
 
-###  音乐
+
+<p> </p>
+
+## <center>  音乐 </center>
 
 
 |歌手|歌名|
@@ -143,11 +166,3 @@ BUPSDXFA3TP7KCMLHALRHLIX2FEJEUJFE    IT（信息技术）
 BTLZ4A4UD3PEWKPLLWEOKH3W7OQJKFPLG    （最后这个不是电子书，是翻墙工具的汇总）
 ```
 
-### 作为程序员打算看的书
-
-| Book  Name |译名|作者|备注|
-|:-|:-|:-|:-|
-| 《Code Complete 》 |《代码大全》|Steve McConnell||
-| 《Clean Code: A Handbook of Agile Software Craftsmanship》 |《無瑕的程式碼：敏捷軟體開發技巧守則》| Robert C. Martin ||
-| 《The Clean Coder：A Code of Conduct for Professional Programmers》 |《干净编码者——专业级程序员编码法典》| Robert C. Martin ||
-| 《Refactoring: Improving the Design of Existing Code》 |《重构:改善既有代码的设计》|Martin Fowler||
