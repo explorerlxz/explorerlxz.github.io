@@ -16,7 +16,7 @@ date:   2016-05-24
 |破解逆向|[看雪论坛](http://bbs.pediy.com/)|||
 |磁力链接|[Torrentz](https://torrentz.eu/)|[高清mp4吧](http://www.mp4ba.com/)|[Torrenthound](http://www.torrenthound.com)|[Rutor](http://new-rutor.org/)|[云盘搜索](http://pan.ibying.com/)|
 |阅读笔记|[Gates Notes](https://www.gatesnotes.com/)|[Mark Zuckerberg](http://www.ayearofbooks.net/)|[What if?](https://whatif.xkcd.com/)|||
-|野性呼唤|[自由微博](https://freeweibo.com)|[草榴社区](http://t66y.com)|[caoliucm](https://groups.yahoo.com/neo/groups/caoliucm/info)||
+|野性呼唤|[自由微博](https://freeweibo.com)|[草榴社区](http://t66y.com)|[caoliucm](https://groups.yahoo.com/neo/groups/caoliucm/info)|[Playno1](http://www.playno1.com/)|
 |GFW|[GFW.Press](http://gfw.press/)| [Tor 中继节点](https://bridges.torproject.org/)|[XX-Net](https://github.com/XX-net/XX-Net)|[ishadowsocks](http://www.ishadowsocks.org/)|
 |外包项目|[FreeLance](http://www.freelance.com/)|[iWriter](https://www.iwriter.com/)|[程序员客栈](https://www.proginn.com/)
 |国外常用|[Twitter](https://twitter.com)|[Quora](https://www.quora.com)|||
