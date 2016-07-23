@@ -10,7 +10,7 @@ date:   2016-05-24
 ||||||
 |:-|:-:|:-:|:-:|:-:|:-|
 |RSS|[Feed reader](http://feedreader.com/)||
-|经典博客|[王垠博客](https://www.yinwang.org)|[冯大辉的博客](http://dbanotes.net/)|[编程随想](https://program-think.blogspot.com)|[可能吧](https://kenengba.com/)|[简书](http://www.jianshu.com)|
+|经典博客|[王垠博客](https://www.yinwang.org)|[冯大辉的博客](http://dbanotes.net/)|[编程随想](https://program-think.blogspot.com)|[可能吧](https://kenengba.com/)|[廖雪峰的官方网站](http://www.liaoxuefeng.com/)|
 |码农之家|[V2EX](https://www.v2ex.com)|[Github](https://www.github.com)|||
 |前端知识|[W3school](http://www.w3school.com.cn/)|[Learn CSS Layout](http://learnlayout.com/)|[jekyll](https://jekyllrb.com)||
 |破解逆向|[看雪论坛](http://bbs.pediy.com/)|||
@@ -20,11 +20,11 @@ date:   2016-05-24
 |GFW|[GFW.Press](http://gfw.press/)| [Tor 中继节点](https://bridges.torproject.org/)|[XX-Net](https://github.com/XX-net/XX-Net)|[ishadowsocks](http://www.ishadowsocks.org/)|
 |外包项目|[FreeLance](http://www.freelance.com/)|[iWriter](https://www.iwriter.com/)|[程序员客栈](https://www.proginn.com/)
 |国外常用|[Twitter](https://twitter.com)|[Quora](https://www.quora.com)|||
-|网络监控|[Norse Corp](http://map.norsecorp.com/)|[盾眼](http://www.yundun.com/report/ccwaf)|
+|网络监控|[Norse Corp](http://map.norsecorp.com/)|[盾眼](http://www.yundun.com/report/ccwaf)|[Zoomeye](https://www.zoomeye.org)|
 |Google服务|[云输入法](https://www.google.com/inputtools/try/)|||
 |搜索引擎|[DuckDuckGo](https://duckduckgo.com)|
-|俄语学习|[在线电视](http://www.moskvatv.org/)|[Search Engine](https://www.yandex.ru/)|[rutracker](http://rutracker.org/forum/index.php)|[TrackerOK](http://www.trackerok.com/)|
-
+|俄语学习|[在线电视](http://www.moskvatv.org/)|[Yandex搜索引擎](https://www.yandex.ru/)|[rutracker](http://rutracker.org/forum/index.php)|[TrackerOK](http://www.trackerok.com/)|
+|心灵鸡汤|[简书](http://www.jianshu.com)|
 
 
 ## BitTorrent Sync
