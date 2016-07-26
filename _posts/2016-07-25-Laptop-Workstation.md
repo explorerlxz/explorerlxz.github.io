@@ -30,4 +30,5 @@ linux下查看了下CPU的配置
 - zhihu: [买笔记本那些五花八门的配置怎么看？都代表什么意思？](http://www.zhihu.com/question/34923596/answer/60818825)
 - [科普向，电脑配置的价格差异 ](http://bbs.nga.cn/read.php?tid=8581289)
 - [CPU的选择，体验/性能/功耗的妥协](https://zhuanlan.zhihu.com/p/20127546)
+- [ DIY 服务器--你敢用么？](http://bbs.51cto.com/thread-1041462-1.html)
 
