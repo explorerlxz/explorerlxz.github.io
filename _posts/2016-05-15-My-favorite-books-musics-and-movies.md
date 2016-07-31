@@ -186,3 +186,8 @@ BTLZ4A4UD3PEWKPLLWEOKH3W7OQJKFPLG    （最后这个不是电子书，是翻墙�
 《[**劫后天府泪纵横**](https://zh.wikipedia.org/wiki/%E5%8A%AB%E5%90%8E%E5%A4%A9%E5%BA%9C%E6%B3%AA%E7%BA%B5%E6%A8%AA)》（英语：China's Unnatural Disaster: The Tears of Sichuan Province）是一部2009年在美国HBO放映的关于中国四川汶川大地震中死难者及其家人的纪录片，片长39分钟。2009年5月4日在纽约作全球首映。该片获得2009年奥斯卡奖“纪录短片”奖项提名。
 
 这部影片由美国最大的家庭电影频道HBO出资，导演是美国著名纪录片导演乔恩·阿尔伯特和马修·奥尼尔，制片人是美籍华人学者夏明和邝治中。纪录片主要描述灾区的校舍倒塌反映出的人祸问题以及遇难学生的家长维权之路。
+
+
+## Reference
+
+- 草榴社区：[1500部电影](http://t66y.com/htm_data/7/1607/2013710.html)
