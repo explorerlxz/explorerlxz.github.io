@@ -31,4 +31,4 @@ linux下查看了下CPU的配置
 - [科普向，电脑配置的价格差异 ](http://bbs.nga.cn/read.php?tid=8581289)
 - [CPU的选择，体验/性能/功耗的妥协](https://zhuanlan.zhihu.com/p/20127546)
 - [ DIY 服务器--你敢用么？](http://bbs.51cto.com/thread-1041462-1.html)
-
+- caoliushequ:[zuzhuangdiannao](http://t66y.com/htm_data/7/1607/2012967.html)

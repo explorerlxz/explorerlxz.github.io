@@ -116,6 +116,10 @@ date:   2016-05-15
 
 最喜欢的武打明星Tony Jaa，Scott Adkins，Lateef Crowder，成龙，李小龙……
 
+**琴嘉**（全名：JiJaYanin Vismitananda，1984年3月31日－），出生于泰国曼谷，是一位泰国著名女演员。琴嘉在代表作的电影《致命巧克力》中使出大量泰拳跆拳道及高难度的危险动作，因而声名大噪，更获得“泰国功夫小天后”之称号。
+
+
+
 | 电 视 剧 列 表 |国 家|标 签|备 注|
 |:-|:-|:-|:-|:-|
 |《Stargate Atlanti》|American|Science,Fiction|《星际之门：亚特兰蒂斯》|
