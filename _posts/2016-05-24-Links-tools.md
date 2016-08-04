@@ -11,6 +11,7 @@ date:   2016-05-24
 |:-|:-:|:-:|:-:|:-:|:-|
 |RSS|[Feed reader](http://feedreader.com/)||
 |经典博客|[王垠博客](https://www.yinwang.org)|[冯大辉的博客](http://dbanotes.net/)|[编程随想](https://program-think.blogspot.com)|[可能吧](https://kenengba.com/)|[廖雪峰的官方网站](http://www.liaoxuefeng.com/)|
+|每天更新|[博谈网](https://botanwang.com/)|
 |BLOG|[bigeagle](https://bigeagle.me/)|[爱游开源](http://www.au92.com/)|
 |码农之家|[V2EX](https://www.v2ex.com)|[Github](https://www.github.com)|||
 |前端知识|[W3school](http://www.w3school.com.cn/)|[Learn CSS Layout](http://learnlayout.com/)|[jekyll](https://jekyllrb.com)||
