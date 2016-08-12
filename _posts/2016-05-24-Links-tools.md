@@ -28,6 +28,8 @@ date:   2016-05-24
 |俄语学习|[在线电视](http://www.moskvatv.org/)|[Yandex搜索引擎](https://www.yandex.ru/)|[rutracker](http://rutracker.org/forum/index.php)|[TrackerOK](http://www.trackerok.com/)|
 |心灵鸡汤|[简书](http://www.jianshu.com)|
 |有趣设计|[蜡笔街](http://www.labijie.com/designer)|
+|开源软件|[USTC](http://mirrors.ustc.edu.cn/)|[]()|
+
 
 ## BitTorrent Sync
 
