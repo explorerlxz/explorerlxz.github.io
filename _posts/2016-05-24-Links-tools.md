@@ -29,6 +29,7 @@ date:   2016-05-24
 |心灵鸡汤|[简书](http://www.jianshu.com)|
 |有趣设计|[蜡笔街](http://www.labijie.com/designer)|
 |开源软件|[USTC](http://mirrors.ustc.edu.cn/)|[]()|
+|囚徒健身|[](http://ambitionathletics.com)|
 
 
 ## BitTorrent Sync
