@@ -36,7 +36,7 @@ date:   2016-05-15
 |**朱凌**|《我反对：一个人大代表的参政传奇》|
 |**金贤姬**|《金贤姬全告白》|
 |**索尔仁尼琴**|《古拉格群岛》|
-
+|**尤瓦尔·赫拉利**|《人类简史》|
 ```
 以后要好好学点外语，以后出国买些国内看不了的书
 ```
@@ -76,7 +76,7 @@ date:   2016-05-15
 
 **托马斯·弗里德曼(Thomas L. Friedman)**的 《世界是平的》<The World Is Flat: A Brief History of the Twenty-first Century>
 
-### <center>  作为程序员打算看的书 </center>
+### <center>  程序员 </center>
  
 | Book  Name |译名|作者|备注|
 |:-|:-|:-|:-|
@@ -86,6 +86,15 @@ date:   2016-05-15
 |《Refactoring: Improving the Design of Existing Code》 |《重构:改善既有代码的设计》|Martin Fowler||
 |《UNIX痛恨者手册》||||
 
+
+### <center> 健身增肌 </center>
+
+| 中文名 | 原名 | 作者 | 备注 |
+|:-|:-|:-|:-|
+|《囚徒健身》||Paul Wade||
+|《囚徒健身 2》||Paul Wade||
+|《囚徒爆发力》||Paul Wade||
+|《囚徒增肌》||Paul Wade||
 
 ### <center> 消遣读物 </center>
 
