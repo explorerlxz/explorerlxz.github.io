@@ -36,7 +36,7 @@ date:   2016-05-24
 
 - 博客园: [做有中国特色的程序员](http://www.cnblogs.com/shiyuxinglan/archive/2012/07/27/2611021.html)
 - 博客园: [如果说中国的程序员技术偏低，原因可能在这里](http://www.cnblogs.com/shiyuxinglan/archive/2010/05/17/1737057.html)
-- 博客园：[加班最怕的七件事](http://www.cnblogs.com/shiyuxinglan/archive/2012/07/21/2603342.html)
+- 博客园: [加班最怕的七件事](http://www.cnblogs.com/shiyuxinglan/archive/2012/07/21/2603342.html)
 
 
 
