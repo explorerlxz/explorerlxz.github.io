@@ -31,6 +31,7 @@ date:   2016-05-24
 |开源软件|[USTC](http://mirrors.ustc.edu.cn/)|[]()|
 |囚徒健身|[Ambition Athletics](http://ambitionathletics.com)|
 |电子书|[纯文学网站](http://www.purepen.com/index.html)|[好读](http://www.haodoo.net/)|
+|学术论文|[Sci Hub](http://sci-hub.cc/)|[Sci Hub](http://sci-hub.bz)|
 
 ### <center> </center>
 
