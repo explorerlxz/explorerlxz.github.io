@@ -29,7 +29,7 @@ date:   2016-05-24
 |心灵鸡汤|[简书](http://www.jianshu.com)|
 |有趣设计|[蜡笔街](http://www.labijie.com/designer)|
 |开源软件|[USTC](http://mirrors.ustc.edu.cn/)|[]()|
-|囚徒健身|[Ambition Athletics](http://ambitionathletics.com)|
+|健身|[Ambition Athletics](http://ambitionathletics.com)|[Fitness&Lifestyle Blog](http://petrinicsystem.com/)|
 |电子书|[纯文学网站](http://www.purepen.com/index.html)|[好读](http://www.haodoo.net/)|
 |学术论文|[Sci Hub](http://sci-hub.cc/)|[Sci Hub](http://sci-hub.bz)|
 
