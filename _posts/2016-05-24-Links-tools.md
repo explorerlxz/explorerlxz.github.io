@@ -16,7 +16,7 @@ date:   2016-05-24
 |码农之家|[V2EX](https://www.v2ex.com)|[Github](https://www.github.com)|[Hacker News](https://news.ycombinator.com/)||
 |前端知识|[W3school](http://www.w3school.com.cn/)|[Learn CSS Layout](http://learnlayout.com/)|[jekyll](https://jekyllrb.com)||
 |破解逆向|[看雪论坛](http://bbs.pediy.com/)|||
-|磁力链接|[Torrentz](https://torrentz.eu/)|[高清mp4吧](http://www.mp4ba.com/)|[Torrenthound](http://www.torrenthound.com)|[Rutor](http://new-rutor.org/)|[云盘搜索](http://pan.ibying.com/)|
+|磁力链接|[ExtraTorrent](http://extratorrent.cc/)|[高清mp4吧](http://www.mp4ba.com/)|[Rutor](http://rutor1.org/)|[云盘搜索](http://pan.ibying.com/)|
 |阅读笔记|[Gates Notes](https://www.gatesnotes.com/)|[Mark Zuckerberg](http://www.ayearofbooks.net/)|[What if?](https://whatif.xkcd.com/)|||
 |野性呼唤|[自由微博](https://freeweibo.com)|[草榴社区](http://t66y.com)|[caoliucm](https://groups.yahoo.com/neo/groups/caoliucm/info)|[Playno1](http://www.playno1.com/)|
 |GFW|[GFW.Press](http://gfw.press/)| [Tor 中继节点](https://bridges.torproject.org/)|[XX-Net](https://github.com/XX-net/XX-Net)|[ishadowsocks](http://www.ishadowsocks.org/)|
