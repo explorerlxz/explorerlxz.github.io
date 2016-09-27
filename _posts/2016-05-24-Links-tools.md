@@ -32,6 +32,8 @@ date:   2016-05-24
 |健身|[Ambition Athletics](http://ambitionathletics.com)|[Fitness&Lifestyle Blog](http://petrinicsystem.com/)|
 |电子书|[纯文学网站](http://www.purepen.com/index.html)|[好读](http://www.haodoo.net/)|
 |学术论文|[Sci Hub](http://sci-hub.cc/)|[Sci Hub](http://sci-hub.bz)|
+|STM32|[STMicroelectronics](http://www.st.com/)|[意法半导体技术社区](http://www.stmcu.org/)|
+
 
 ### <center> </center>
 
