@@ -15,6 +15,6 @@ url: "https://explorerlxz.github.io" # the base hostname & protocol for your sit
 twitter_username: explorerlxz
 github_username: explorerlxz 
 images:
-    #    background:url(https://explorerlxz.github.io/images/background.jpg)
+    #  
 # Build settings
 markdown: kramdown
