@@ -1,0 +1,54 @@
+---
+layout: post
+title:  "Linux使用心得"
+date:   2016-11-09
+---
+
+## 挂載Virtualbox的共享文件夾
+
+宿主機爲Windows 10，虛擬機爲Virtualbox，想要挂載VM_Share文件夾到Arch虛擬機xwr用戶下的Shared_files文件，並給此用戶全部讀寫權限。
+
+這個目的既可以在命令行下實現，也可以在配置文件中永久實現。
+
+在命令行下實現，需要root權限，且只能暫時使用，重啓之後失效
+
+```
+mount VM_Share /home/xwr/Shared_files -t vboxsf -o rw,gid=100,uid=1000
+```
+
+把配置信息寫入配置文件，則可以開機會自動挂載共享文件夾
+
+在/etc/fstab文件中添加下面的配置信息
+
+```
+VM_Share /home/xwr/Shared_files vboxsf rw,gid=100,uid=1000,auto 0 0
+```
+
+重啓系統後以root身份執行
+
+```
+systemctl status home-xwr-Shared_files.mount 
+```
+
+得到下面的信息，說明文件挂載成功
+
+```
+● home-xwr-Shared_files.mount - /home/xwr/Shared_files
+   Loaded: loaded (/etc/fstab; generated; vendor preset: disabled)
+   Active: active (mounted) since Wed 2016-11-09 13:59:32 CST; 13min ago
+    Where: /home/xwr/Shared_files
+     What: VM_Share
+     Docs: man:fstab(5)
+           man:systemd-fstab-generator(8)
+  Process: 164 ExecMount=/usr/bin/mount VM_Share /home/xwr/Shared_files -t vboxsf -o rw,gid=100,uid=1000 (code=exited, $
+    Tasks: 0 (limit: 4915)
+   CGroup: /system.slice/home-xwr-Shared_files.mount
+```
+
+## Resilio(BT Sync)
+
+這個軟件原來叫做BT Sync，後來改名字成Resilio了，雖然改名字了，但是功能還是非常強大的，P2P加密分享文件，在網盤沒落，Torrent，magnet站點關停的情況下對我們來說是個福音，linux下可以用firefox進行同步，在瀏覽器中輸入http://localhost:8888/gui/再輸入帳號密碼即可，windows下直接運行就可以了，不需要瀏覽器，但是這個軟件在我的win 10中總會讓顯卡出問題，因此還是放在虛擬機里用吧！
+
+
+## Reference
+
