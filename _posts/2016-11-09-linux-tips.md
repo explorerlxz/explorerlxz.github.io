@@ -50,5 +50,30 @@ systemctl status home-xwr-Shared_files.mount
 這個軟件原來叫做BT Sync，後來改名字成Resilio了，雖然改名字了，但是功能還是非常強大的，P2P加密分享文件，在網盤沒落，Torrent，magnet站點關停的情況下對我們來說是個福音，linux下可以用firefox進行同步，在瀏覽器中輸入http://localhost:8888/gui/再輸入帳號密碼即可，windows下直接運行就可以了，不需要瀏覽器，但是這個軟件在我的win 10中總會讓顯卡出問題，因此還是放在虛擬機里用吧！
 
 
+## ntpd服務（更正系統時間）
+
+今天把arch系統休眠了，結果恢復後時間沒有變回來，用date之類的命令都不管用，從網上找到一個解決方案
+
+>>The correct way to do this would be by enabling ntpd.service via systemd.
+
+>># pacman -Syu ntp Installed the required package
+
+>># systemctl enable ntpd.service Enable it at boot so every time you boot the system the clock will be synchronized
+
+>># systemctl start ntpd.service Start it immediately
+
+>>One could also run ntpd -qg as root.
+
+>>Once you have systemd managing this operation, you should never have to worry about setting the clock agian.
+
+簡單總結一下
+
+```
+pacman -S ntp
+systemctl enable ntpd.service
+systemctl start ntpd.service
+ntpd -qg
+```
+
 ## Reference
 
