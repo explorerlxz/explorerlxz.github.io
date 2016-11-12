@@ -55,16 +55,16 @@ systemctl status home-xwr-Shared_files.mount
 今天把arch系統休眠了，結果恢復後時間沒有變回來，用date之類的命令都不管用，從網上找到一個解決方案
 
 >>The correct way to do this would be by enabling ntpd.service via systemd.
-
->># pacman -Syu ntp Installed the required package
-
->># systemctl enable ntpd.service Enable it at boot so every time you boot the system the clock will be synchronized
-
->># systemctl start ntpd.service Start it immediately
-
->>One could also run ntpd -qg as root.
-
->>Once you have systemd managing this operation, you should never have to worry about setting the clock agian.
+>>
+# pacman -Syu ntp Installed the required package
+>>
+# systemctl enable ntpd.service Enable it at boot so every time you boot the system the clock will be synchronized
+>>
+# systemctl start ntpd.service Start it immediately
+>>
+One could also run ntpd -qg as root.
+>>
+Once you have systemd managing this operation, you should never have to worry about setting the clock agian.
 
 簡單總結一下
 
@@ -74,6 +74,30 @@ systemctl enable ntpd.service
 systemctl start ntpd.service
 ntpd -qg
 ```
+
+## 整理磁力鏈接
+
+由於對Python瞭解不夠，對數據庫學習也不深入，就先不搞全自動爬蟲了。先來手工實現一下：
+
+在某個Torrent站點找到自己想要的種子，挑選好後，Ctrl+S保存到本地。如index.htm。
+
+用vi編輯器把網頁中所有的"替換成回車，在編輯器中輸入如下字串執行即可
+
+```
+:%s/"/^M/g
+```
+
+其中^通過按Ctrl-v,M通過按Ctrl-m即可出來，替換之後保存文件。
+
+執行一下命令
+
+```
+cat index.htm | grep magnet: >> result.txt
+```
+
+這樣我們就把想要下載的東西保存到result.txt了。下載的話執行aria2c -i result.txt即可，非常方便。
+
+以後有空用Python實現一下爬蟲，數據庫，有需要的話再整個硬盤。
 
 ## Reference
 
