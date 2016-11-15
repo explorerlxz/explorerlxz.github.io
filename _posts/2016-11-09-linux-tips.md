@@ -55,10 +55,15 @@ systemctl status home-xwr-Shared_files.mount
 今天把arch系統休眠了，結果恢復後時間沒有變回來，用date之類的命令都不管用，從網上找到一個解決方案
 
 >> The correct way to do this would be by enabling ntpd.service via systemd.
-**pacman -Syu ntp** Installed the required package
-**systemctl enable ntpd.service** Enable it at boot so every time you boot the system the clock will be synchronized
-**systemctl start ntpd.service** Start it immediately
-One could also run **ntpd -qg** as root.
+>> 
+*pacman -Syu ntp* Installed the required package
+>> 
+*systemctl enable ntpd.service* Enable it at boot so every time you boot the system the clock will be synchronized
+>> 
+*systemctl start ntpd.service* Start it immediately
+>> 
+One could also run *ntpd -qg* as root.
+>> 
 Once you have systemd managing this operation, you should never have to worry about setting the clock agian.
 
 簡單總結一下
