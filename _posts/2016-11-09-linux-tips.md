@@ -124,8 +124,63 @@ www.yyy.org，不加参数-L，就会像大火烧山一样，会递归下载www.
 
 更多參考：[wget 下载整个网站，或者特定目录](http://www.cnblogs.com/lidp/archive/2010/03/02/1696447.html)
 
+註：今天嘗試下載王垠的博客[當然我在扯淡](http://www.yinwang.org)時只下載了三五篇就結束了，不知道怎麼回事兒，也許是他網站做了防爬蟲吧，以後再事實-2016-11-17
+
+## python程序從文本中提取含有中文的字符串/行
+
+下面是從博客園中搬運過來的，鏈接爲[Python-提取文件中所有中文小程序](http://www.cnblogs.com/xinzaitian/archive/2010/11/30/1892208.html)。
+
+```Python
+#coding=utf-8 
+import imp 
+import sys 
+imp.reload(sys) 
+sys.setdefaultencoding('utf-8') #设置默认编码,只能是utf-8,下面\u4e00-\u9fa5要求的
+import re   
+pchinese=re.compile('([\u4e00-\u9fa5]+)+?') #判断是否为中文的正则表达式
+f=open("data.txt") #打开要提取的文件
+fw=open("getdata.txt","w")#打开要写入的文件
+for line in f.readlines():   #循环读取要读取文件的每一行
+    m=pchinese.findall(str(line)) #使用正则表达获取中文
+    if m:
+        str1='|'.join(m)#同行的中文用竖杠区分
+        str2=str(str1)
+        fw.write(str2)#写入文件
+        fw.write("\n")#不同行的要换行
+f.close()
+fw.close()#打开的文件记得关闭哦!
+```
+在我的系統上提示第五行錯誤，sys中沒有setdefaultencoding函數，我直接把這一行註釋掉了，結果正常運行。
+
+我的需求是提取帶有中文字符串的所有行，由於我最近在破解一個VB程序，用VB Decompiler獲取到反編譯出來的代碼，查找突破口，但是代碼量太大了，我也不清楚錯誤提示是什麼，但知道肯定是中文。由於不動地如何用grep匹配帶有中文的行，只好用Python了！能解決問題才是關鍵。
+
+
+```Python
+#coding=utf-8 
+import imp 
+import sys 
+imp.reload(sys) 
+#sys.setdefaultencoding('utf-8') #设置默认编码,只能是utf-8,下面\u4e00-\u9fa5要求的
+import re   
+pchinese=re.compile('([\u4e00-\u9fa5]+)+?') #判断是否为中文的正则表达式
+f=open("data.txt") #打开要提取的文件
+fw=open("getdata.txt","w")#打开要写入的文件
+for line in f.readlines():   #循环读取要读取文件的每一行
+    m=pchinese.findall(str(line)) #使用正则表达获取中文
+    if m:
+#        str1='|'.join(m)#同行的中文用竖杠区分
+#        str2=str(str1)
+#        fw.write(str2)#写入文件
+        fw.write(line)
+#        fw.write("\n")#不同行的要换行
+f.close()
+fw.close()#打开的文件记得关闭哦!
+
+```
+
 
 
 ## Reference
 
  - 博客園：[wget 下载整个网站，或者特定目录](http://www.cnblogs.com/lidp/archive/2010/03/02/1696447.html)
+ - 博客園：[Python-提取文件中所有中文小程序](http://www.cnblogs.com/xinzaitian/archive/2010/11/30/1892208.html)
