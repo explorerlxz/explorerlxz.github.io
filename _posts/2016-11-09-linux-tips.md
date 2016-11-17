@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Linux使用心得"
+title:  "Linux使用筆記"
 date:   2016-11-09
 ---
 
@@ -99,5 +99,33 @@ cat index.htm | grep magnet: >> result.txt
 
 以後有空用Python實現一下爬蟲，數據庫，有需要的話再整個硬盤。
 
+## wget下載特定目錄
+
+曾經有一次想要下載某一個網站2016年的信息安全方面的論文，直接用**wget -c http://eprint.iacr.org/2016/**，我以爲只會下載一個目錄，沒想到把整個網站都快下載下來了……
+
+下載特定目錄可以用這個命令
+
+```
+wget -c -r -np -k -L -p www.xxx.org/pub/path/
+
+-c 断点续传
+-r 递归下载，下载指定网页某一目录下（包括子目录）的所有文件
+-nd 递归下载时不创建一层一层的目录，把所有的文件下载到当前目录
+-np 递归下载时不搜索上层目录，如wget -c -r www.xxx.org/pub/path/
+没有加参数-np，就会同时下载path的上一级目录pub下的其它文件
+-k 将绝对链接转为相对链接，下载整个站点后脱机浏览网页，最好加上这个参数
+-L 递归时不进入其它主机，如wget -c -r www.xxx.org/ 
+如果网站内有一个这样的链接： 
+www.yyy.org，不加参数-L，就会像大火烧山一样，会递归下载www.yyy.org网站
+-p 下载网页所需的所有文件，如图片等
+-A 指定要下载的文件样式列表，多个样式用逗号分隔
+-i 后面跟一个文件，文件内指明要下载的URL
+```
+
+更多參考：[wget 下载整个网站，或者特定目录](http://www.cnblogs.com/lidp/archive/2010/03/02/1696447.html)
+
+
+
 ## Reference
 
+ - 博客園：[wget 下载整个网站，或者特定目录](http://www.cnblogs.com/lidp/archive/2010/03/02/1696447.html)
