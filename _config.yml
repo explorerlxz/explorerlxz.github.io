@@ -17,5 +17,5 @@ github_username: explorerlxz
 images:
     #  
 # Build settings
-#markdown: kramdown
-markdown: rdiscount
+markdown: kramdown
+#markdown: rdiscount
