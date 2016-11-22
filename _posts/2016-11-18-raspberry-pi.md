@@ -43,15 +43,15 @@ date: 2016-11-18
 
 C語言版本要用到wiringPi這個庫，具體命令如下：
 
-```
+{% highlight bash %}
 git clone git://git.drogon.net/wiringPi
 cd wiringPi
 ./build
-```
+{% endhighlight %}
 
  C程序的代碼如下
 
-```C
+{% highlight c linenos %}
 /* moto.c
 * A program to control a stepper motor through the GPIO on Raspberry Pi. 
 * 
@@ -125,11 +125,11 @@ void rotate(int* pins, int direction) {
         delayMS(4);
     }
 }
-```
+{% endhighlight %}
 
 編譯程序：
 
-```
+```bash
 g++ motor.c -o motor -lwiringPi
 ```
 
@@ -137,12 +137,12 @@ g++ motor.c -o motor -lwiringPi
 
 逆時針旋轉360度
 
-```
+```bash
 sudo ./motor 0 1 2 3
 ```
 順時針旋轉360度
 
-```
+```bash
 sudo ./motor 3 2 1 0
 ```
 
@@ -150,14 +150,14 @@ sudo ./motor 3 2 1 0
 
 Python版本要用到rpi.gpio，raspbian系統默認已經安裝了
 
-```
+```bash
 $ sudo apt-get update
 $ sudo apt-get install python-rpi.gpio python3-rpi.gpio
 ```
 
 Python代碼如下：
 
-```Python
+{% highlight python linenos %}
 #coding: utf8
 import RPi.GPIO as GPIO
 import time
@@ -187,7 +187,7 @@ for x in range(0,steps):
                 GPIO.output(ports[i],True)
             else:
                 GPIO.output(ports[i],False)
-```
+{% endhighlight %}
 
 逆時針旋轉約80度
 

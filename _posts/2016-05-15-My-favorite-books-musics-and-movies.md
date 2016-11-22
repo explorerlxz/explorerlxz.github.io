@@ -232,7 +232,42 @@ BTLZ4A4UD3PEWKPLLWEOKH3W7OQJKFPLG    （最后这个不是电子书，是翻墙�
 这部影片由美国最大的家庭电影频道HBO出资，导演是美国著名纪录片导演乔恩·阿尔伯特和马修·奥尼尔，制片人是美籍华人学者夏明和邝治中。纪录片主要描述灾区的校舍倒塌反映出的人祸问题以及遇难学生的家长维权之路。
 
 
+```
+多读毁三观的书，比如政治类的禁书，还有最新的脑科学与神经科学著作、社会学研究报告、生物学、宗教哲学、中国历史。
+无聊的时候再读读官（商）场斗争类的小说。
+
+这样以后走向社会就见怪不怪了。处事更会淡然许多，人也变得客观灵动了。
+推荐：
+《影响力》
+《暗时间》
+《菜根谭》
+《别独自用餐》
+《改革.历程》（禁）
+《金正日の料理人》
+《我们仍然在仰望星空》
+《甘地传》
+《和珅传》
+《乱世枭雄张作霖》
+《亲密关系》
+《性学观止》
+《潜规则》
+《十亿消费者》
+《哪来的天才？ : 练习中的平凡与伟大》
+
+（少看成功学书籍;-) 
+
+作者：高超
+链接：https://www.zhihu.com/question/22441639/answer/21715270
+来源：知乎
+著作权归作者所有，转载请联系作者获得授权。
+```
+
+
+
+
+
 ## Reference
 
-- Quora: [Reading List: Suggestions Welcome!](https://whatread.quora.com/Reading-List-Suggestions-Welcome)
-- 草榴社区：[1500部电影](http://t66y.com/htm_data/7/1607/2013710.html)
+ - Quora: [Reading List: Suggestions Welcome!](https://whatread.quora.com/Reading-List-Suggestions-Welcome)
+ - 草榴社区：[1500部电影](http://t66y.com/htm_data/7/1607/2013710.html)
+ - zhihu:[读哪些书能让自己开阔视野、思想更成熟，最好是能锻炼的像一个男人那样去思考问题？](https://www.zhihu.com/question/22441639)

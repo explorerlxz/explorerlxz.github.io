@@ -17,5 +17,15 @@ github_username: explorerlxz
 images:
     #  
 # Build settings
+highlighter: rouge
 markdown: kramdown
+
+linenos: true
+
+highlight:
+    linenos: true
+
+krandown:
+    input: GFM
+    syntax_highlighter: rouge
 #markdown: rdiscount
