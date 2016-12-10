@@ -247,6 +247,10 @@ td{
 ** Add on 2016-12-10
 */
 
-tbody tr:nth-child(2n) {
+tbody tr:nth-child(2n) {//隔行變色
     background: rgba(163,237,205,0.8); 
+}
+
+tr:hover{//鼠標懸浮變色
+    background: #efefef;
 }
