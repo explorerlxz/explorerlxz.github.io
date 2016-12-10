@@ -235,7 +235,7 @@ table{
 th{
     font-weight: bold;//加粗字體
     text-align: center !important;//內容居中，加上!important避免被Markdown樣式覆蓋
-    background: rgba(158,188,266,0.2);//背景色
+    background: rgba(158,188,266,0.8);//背景色
     border:2px solid #000000;
 }
 
@@ -243,3 +243,10 @@ td{
     border:1px solid #000000;
 }
 
+/**
+** Add on 2016-12-10
+*/
+
+tbody tr:nth-child(2n) {
+    background: rgba(163,237,205,0.8); 
+}
