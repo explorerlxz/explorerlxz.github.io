@@ -225,12 +225,17 @@ pre {
 * Add table format
 */
 table{
+    width:100%;//表格寬度
+    max-width: 65em;//表格最大寬度，避免表格過寬
     border-collapse: collapse;
     border-spacing: 0;
     border:2px solid #000000;
 }
 
 th{
+    font-weight: bold;//加粗字體
+    text-align: center !important;//內容居中，加上!important避免被Markdown樣式覆蓋
+    background: rgba(158,188,266,0.2);//背景色
     border:2px solid #000000;
 }
 
