@@ -134,8 +134,7 @@ code {
     font-size: 15px;
     border: 1px solid $grey-color-light;
     border-radius: 3px;
-    //word-wrap: normal|break-word;//自動換行，添加於2016-12-19
-    overflow-wrap: break-word;
+    word-wrap: break-all;//自動換行，添加於2016-12-19
     //background-color: #a3edcd//#eef;
 }
 
