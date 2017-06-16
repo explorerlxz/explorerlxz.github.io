@@ -11,8 +11,8 @@ date:   2017-06-16
 ```
 ./configure
 make
-make install
 make check
+make install
 ```
 
 安装完成后下载了例程
