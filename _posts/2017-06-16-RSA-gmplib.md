@@ -17,7 +17,7 @@ make install
 
 安装完成后下载了例程
 
-```
+{% highlight cpp linenos %}
 #include <iostream>
 #include <gmp.h>
 #include <cstring>
@@ -68,7 +68,7 @@ int main() {
 
     return 0;
 }
-```
+{% endhighlight %}
 
 编译程序时C++要用到libgmp和libgmpxx，如下：
 
@@ -80,7 +80,7 @@ g++ mycxxprog.cc -lgmpxx -lgmp -o a.out
 
 上面都是10进制，下面一个是2进制，一个62进制
 
-```
+{% highlight bash linenos %}
 [explorer@study gmp]$ ./test1.out
 p = 13407807929942597099574024998205846127479365820592393377723561443721764030073662768891111614362326998675040546094339320838419523375986027530441562135724301
 q = 13407807929942597099574024998205846127479365820592393377723561443721764030073778560980348930557750569660049234002192590823085163940025485114449475265364281
@@ -90,5 +90,5 @@ p = 1000000000000000000000000000000000000000000000000000000000000000000000000000
 q = xR9fAlrdKvCIINsqEkJZSfvkAt8lzmSSSSwEFE05v08Bb1pMyu61n2UITyWDeOOU4PPuyM9t73OAFXx6rEnE1B
 p is smaller
 [explorer@study gmp]$
-```
+{% endhighlight %}
 
