@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "GMP教程(译)"
+title:  "GMP入门教程(译)"
 date:   2017-06-16
 ---
 
-原文链接：[Tutorial on GMP](https://www.cs.colorado.edu/~srirams/courses/csci2824-spr14/gmpTutorial.html)
 
 
-# Tutorial on GMP
+# GMP入门教程
+
 
 ---
 ---
@@ -18,7 +18,7 @@ GMP表示Gnu MultiPrecision Library。它是一个非常流行的可以操作任
 本教程主要关注该库的C语言应用。它对C语言的扩展非常容易使用。但从该库C语言的使用开始让我们更清楚我们可以做什么，同时也让我们更好的理解该库的工作方式。
 
 
-## Getting Started
+## 开始吧
 
 ---
 
@@ -35,7 +35,7 @@ GMP表示Gnu MultiPrecision Library。它是一个非常流行的可以操作任
 用C语言写一个像下面一样的小程序你就会发现所有真相：
 
 
-#### Native int
+#### 系统自带int类型
 
 
 {% highlight c linenos %}
@@ -81,7 +81,7 @@ int main(){
 
 我在MAC上编译后得到下面的结果。
 
-### Output on a MAC Laptop
+### MAC笔记本输出的结果
 
 ```
 Size of integers in this computer = 32 bits
@@ -420,3 +420,8 @@ $ ./mpz_fact 2091
 
 GMP提供了大量有用的整数函数：[Integer Arithmetic](http://gmplib.org/manual/Integer-Arithmetic.html#Integer-Arithmetic)
 在这里可以发现大量有用的数论函数：[这儿](http://gmplib.org/manual/Number-Theoretic-Functions.html#Number-Theoretic-Functions)
+
+
+## Reference
+
+[Tutorial on GMP](https://www.cs.colorado.edu/~srirams/courses/csci2824-spr14/gmpTutorial.html)
