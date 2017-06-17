@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "GMP库学习笔记，可用于RAS加密算法"
+title:  "GMP库学习笔记，可用于RSA加密算法"
 date:   2017-06-16
 ---
 
@@ -92,3 +92,4 @@ p is smaller
 [explorer@study gmp]$
 {% endhighlight %}
 
+此程序没有进行质数判断，有必要写一个程序验证一下结果是否真的是质数。
