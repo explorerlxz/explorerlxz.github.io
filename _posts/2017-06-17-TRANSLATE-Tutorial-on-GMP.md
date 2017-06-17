@@ -37,7 +37,8 @@ GMP代表着Gnu MultiPrecision Library。它是一个非常流行的可以让我
 
 #### Native int
 
-```C
+
+{% highlight c linenos %}
 #include <stdio.h>
 #include <assert.h>
 #include <limits.h>
@@ -74,8 +75,7 @@ int main(){
    printf ("\n");
 
 }
-
-```
+{% endhighlight %}
 
 **sizeof(int)**返回一个整数所占的字节数。**INT_MAX**是**limits.h**里定义的一个代表最大整数的宏。**INT_MIN**也是类似的。
 
@@ -102,7 +102,7 @@ C语言也有一个**long**类型支持64位运算。事实上，当前制造的
 
 ### 阶乘运算
 
-```C
+{% highlight c linenos %}
 #include <stdio.h>
 #include <stdlib.h>
 #include <assert.h>
@@ -141,7 +141,7 @@ int main(int argc, char * argv[]){
 
   return 1;
 }
-```
+{% endhighlight %}
 
 我们把上面的程序编译出来玩一下。
 
@@ -222,7 +222,7 @@ srirams@turing:~$ locate libgmp.a
 
 ### 使用GMP整数API的简单程序
 
-```
+{% highlight c linenos %}
 #include <gmp.h>
 #include <stdio.h>
 #include <assert.h>
@@ -279,8 +279,7 @@ int main(){
   mpz_clear(n);
 
 }
-
-```
+{% endhighlight %}
 
 编译代码（假定GMP全局安装在“标准”路径）
 
@@ -322,7 +321,7 @@ n = 1981098309851092850192851029581029581209581092581209581209581029581209581209
 
 下面是程序的样板。
 
-```C
+{% highlight c linenos %}
 #include <gmp.h>
 
 /* la di da di da ... */
@@ -337,7 +336,7 @@ n = 1981098309851092850192851029581029581209581092581209581209581029581209581209
       /* blah blah */
 
   mpz_clear(n);
-```
+{% endhighlight %}
 
 **mpz_t** 是一个指向GMP中用于存储无限制精度整数的复杂数据结构的指针。我们不用管mpz_t的值是什么。但要记住它是一个指针。我们用它来处理整数。验证n的数值并没有什么用处。
 
@@ -351,7 +350,7 @@ n = 1981098309851092850192851029581029581209581092581209581209581029581209581209
 
 ### 无限精度的阶乘
 
-```C
+{% highlight c linenos %}
 #include "gmp.h"
 #include <stdio.h>
 #include <stdlib.h>
@@ -387,8 +386,7 @@ int main(int argc, char * argv[]){
 
   return 1;
 }
-
-```
+{% endhighlight %}
 
 上面的代码解决了使用原始int阶乘函数溢出的问题。
 
