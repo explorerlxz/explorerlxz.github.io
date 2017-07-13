@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "GMP入门教程(译)"
+title:  "GMP入門教程(译)"
 date:   2017-06-16
 ---
 
 
 
-# GMP入门教程
+# GMP入門教程
 
 
 ---
