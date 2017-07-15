@@ -1,3 +1,4 @@
+---
 layout: post
 title:  "Regex Expression"
 date:   2017-07-15
@@ -37,3 +38,13 @@ cat index.html |  grep -o 'https://www.youtube.com/watch.*index=[[:digit:]]\{1,3
 ```
 cat index.html |  grep -o 'https://www.youtube.com/watch.*index=[[:digit:]]\{1,3\}' | uniq > download-link.txt
 ```
+
+
+如果查看shadowsocks日誌，可以先sort一下，再用uniq命令。
+
+
+```
+cat shadowsocks.log | grep -E -o "from[[:space:]]([0-9]{1,3}[\.]){3}[0-9]{1,3}\:([0-9]){1,5}" > ip.port
+cat ip.port | sort -n > ip-sort.log
+```
+
