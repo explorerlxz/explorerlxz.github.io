@@ -1,16 +1,17 @@
 ---
 layout: post
-title:  "生成隨機密碼"
+title:  "生成随机密码"
 date:   2017-07-21
 ---
 
 ## Shell Version
 
-```
+{% highlight shell linenos %}
 cat /dev/urandom|tr -dc "a-zA-Z0-9-_\$\?\*\%\$\@\(\)\_\+"|fold -w 20 |head -n 10
-```
+{% endhighlight %}
 
->3-fTP4rUr3b_dK?5QD1j
+```
+3-fTP4rUr3b_dK?5QD1j
 xGX?-GREFXtUA-1q$+$0
 _ai2fve@HpVTlVbltD92
 OSfH9Gc)5S6UbRNCPgVC
@@ -20,11 +21,21 @@ v5ZHaRARcTsf(FvHuHnr
 ODoiAlU9w(2x5(W*BKxL
 sqZmB(x)H_6*$0NnWGaV
 _cPT$d0$2%w%l58Cyq*d
+```
+
+## OpenSSL
+
+{% highlight shell linenos %}
+$ openssl rand 30 -base64 
+XpNqlIxTPk6Or2OvzYbA93O3GlntMnFNmKGcRXhs
+{% endhighlight %}
+
+
 
 ## C Version
 
 
-```
+{% highlight c linenos %}
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>  
@@ -57,9 +68,10 @@ int main()
     printf("\n");
     return 0;
 }
-```
+{% endhighlight %}
 
->x4t3X6Hki6DJITCdyYr8
+```
+x4t3X6Hki6DJITCdyYr8
 2HL2CF4WOCXC7F5U9A3h
 74rDNtgCIM88TH0WKuqZ
 wCbrFWAEV1mQvRT8Ax8I
@@ -69,12 +81,12 @@ wCbrFWAEV1mQvRT8Ax8I
 ReEt2OMK6yG3AcFJ2imW
 YswJu1G5iQDzsHikUtuO
 h1HfRKoHtQdF7QNpHTkp
-
+```
 
 
 ## Python Version
 
-```
+{% highlight python linenos %}
 import os, random, string
 
 length = 20
@@ -83,9 +95,11 @@ random.seed = (os.urandom(1024))
 
 for num in range(0,9):
     print ''.join(random.choice(chars) for i in range(length)
-```
+{% endhighlight %}
 
->hTvHSrqb6yZr^ie7RFqQ
+
+```
+hTvHSrqb6yZr^ie7RFqQ
 2tTmZy3lk^VE!oK@X8LK
 9Wkhyv7ABf1&9IeWS6&9
 @eR9O27HGhUburR%sU5t
@@ -94,5 +108,5 @@ QXz6guhRVts%LHIxa7&v
 Ag7tx^wn3OBLy4OdSFa8
 x4^E$1&aTbjXcbh((QMV
 NsGYaCh3hJir^mnnOt(a
-
+```
 
