@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Learn python project -- shadowsocks 2.6"
-date:   2017-07-19
+date:   2017-07-21
 ---
 
 
@@ -152,4 +152,6 @@ when I run `python3 test.py`, I will get this result:
 
 ## Reference
 
- - github[shadowsocks-analysis](https://github.com/lixingcong/shadowsocks-analysis)
+ - python.org[json — JSON encoder and decoder](https://docs.python.org/2/library/json.html)
+ - github.com[shadowsocks-analysis](https://github.com/lixingcong/shadowsocks-analysis)
+
