@@ -57,10 +57,10 @@ date:   2017-07-19
 - 给字符串赋值时，总是带有一个前缀'b'，比如：v4addr=b'8.8.4.4'，是为了兼容py3标准，[参考这里](http://stackoverflow.com/questions/6269765/what-does-the-b-character-do-in-front-of-a-string-literal)
 
 
-#### 測試程序
+## 測試程序
 
 
-#### 
+#### config = json.loads(f.read().decode('utf8'), object_hook=_decode_dict)
 
 {% highlight python %}
 #shadowsocks-2.6/shadowsocks/utils.py
