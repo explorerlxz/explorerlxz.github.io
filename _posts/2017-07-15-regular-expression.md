@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Regex Expression"
+title:  "Regular Expression"
 date:   2017-07-15
 ---
 
@@ -48,3 +48,9 @@ cat shadowsocks.log | grep -E -o "from[[:space:]]([0-9]{1,3}[\.]){3}[0-9]{1,3}\:
 cat ip.port | sort -n > ip-sort.log
 ```
 
+### 查找MAC地址
+
+```
+ifconfig | grep -E -o '([0-9A-Fa-f]{2}[:-]){5}([0-9A-Fa-f]{2})'
+ifconfig  | grep -E  -o '((\w){2}[:]){5}(\w){2}'
+```
