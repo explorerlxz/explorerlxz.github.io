@@ -6,9 +6,9 @@ date:   2017-07-21
 
 ## Shell Version
 
-{% highlight shell linenos %}
+```shell
 cat /dev/urandom|tr -dc "a-zA-Z0-9-_\$\?\*\%\$\@\(\)\_\+"|fold -w 20 |head -n 10
-{% endhighlight %}
+```
 
 ```
 3-fTP4rUr3b_dK?5QD1j
@@ -23,13 +23,12 @@ sqZmB(x)H_6*$0NnWGaV
 _cPT$d0$2%w%l58Cyq*d
 ```
 
-## OpenSSL
+## OpenSSL Version
 
-{% highlight shell linenos %}
+```
 $ openssl rand 30 -base64 
 XpNqlIxTPk6Or2OvzYbA93O3GlntMnFNmKGcRXhs
-{% endhighlight %}
-
+```
 
 
 ## C Version
