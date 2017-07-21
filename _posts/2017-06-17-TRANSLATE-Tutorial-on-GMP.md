@@ -38,7 +38,7 @@ GMP表示Gnu MultiPrecision Library。它是一个非常流行的可以操作任
 #### 系统自带int类型
 
 
-{% highlight c linenos %}
+{% highlight c %}
 #include <stdio.h>
 #include <assert.h>
 #include <limits.h>
@@ -102,7 +102,7 @@ C语言也有一个**long**类型支持64位运算。事实上，当前制造的
 
 ### 阶乘运算
 
-{% highlight c linenos %}
+{% highlight c %}
 #include <stdio.h>
 #include <stdlib.h>
 #include <assert.h>
@@ -222,7 +222,7 @@ srirams@turing:~$ locate libgmp.a
 
 ### 使用GMP整数API的简单程序
 
-{% highlight c linenos %}
+{% highlight c %}
 #include <gmp.h>
 #include <stdio.h>
 #include <assert.h>
@@ -321,7 +321,7 @@ n = 1981098309851092850192851029581029581209581092581209581209581029581209581209
 
 下面是程序的样板。
 
-{% highlight c linenos %}
+{% highlight c %}
 #include <gmp.h>
 
 /* la di da di da ... */
@@ -350,7 +350,7 @@ n = 1981098309851092850192851029581029581209581092581209581209581029581209581209
 
 ### 无限精度的阶乘
 
-{% highlight c linenos %}
+{% highlight c %}
 #include "gmp.h"
 #include <stdio.h>
 #include <stdlib.h>

@@ -42,8 +42,7 @@ XpNqlIxTPk6Or2OvzYbA93O3GlntMnFNmKGcRXhs
 
 
 
-
-```C
+{% highlight C %}
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>  
@@ -76,7 +75,8 @@ int main()
     printf("\n");
     return 0;
 }
-```
+{% endhighlight %}
+
 
 ```
 x4t3X6Hki6DJITCdyYr8
@@ -94,7 +94,7 @@ h1HfRKoHtQdF7QNpHTkp
 
 ## Python Version
 
-{% highlight python linenos %}
+{% highlight python %}
 import os, random, string
 
 length = 20
