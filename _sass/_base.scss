@@ -131,12 +131,14 @@ blockquote {
  */
 pre,
 code {
-    font-size: 15px;
+    font-size: 14px;
     //border: 1px solid $grey-color-light;
     //border-radius: 3px;
     word-wrap: break-word;//自動換行，添加於2016-12-19
     overflow: hidden;
-    //background-color: #a3edcd//#eef;
+    white-space: pre-wrap;
+    color:#000000;
+    background-color: #fdf6e3;//#a3edcd//#eef;
 }
 
 code {
@@ -252,6 +254,6 @@ tbody tr:nth-child(2n) {//隔行變色
     background: rgba(163,237,205,0.8); 
 }
 
-tr:hover{//鼠標懸浮變色
-    background: #efefef;
-}
+//tr:hover{//鼠標懸浮變色
+//    background: #efefef;
+//}
