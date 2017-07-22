@@ -1,8 +1,142 @@
 ---
 layout: post
-title:  "Learn python project -- shadowsocks 2.6"
+title:  "Learn python from shadowsocks 2.6"
 date:   2017-07-19
 ---
+
+
+
+# Testing program
+
+
+## This line ***config = json.loads(f.read().decode('utf8'), object_hook=_decode_dict)*** in shadowsocks-2.6/shadowsocks/utils.py
+
+
+### The original code block:
+
+{% highlight python %}
+#shadowsocks-2.6/shadowsocks/utils.py
+def get_config(is_local):
+###################################
+#   A lot code here
+###################################
+
+       if config_path:
+            logging.info('loading config from %s' % config_path)
+            with open(config_path, 'rb') as f:#Read configure file
+                try:
+                    config = json.loads(f.read().decode('utf8'),
+                                        object_hook=_decode_dict)	# I don't understand this line
+                except ValueError as e:
+                    logging.error('found an error in config.json: %s',
+                                  e.message)
+                    sys.exit(1)
+
+###################################
+#   A lot code here
+###################################
+
+def _decode_list(data):
+    rv = []
+    for item in data:
+        if hasattr(item, 'encode'):
+            item = item.encode('utf-8')
+        elif isinstance(item, list):
+            item = _decode_list(item)
+        elif isinstance(item, dict):
+            item = _decode_dict(item)
+        rv.append(item)
+    return rv
+
+
+def _decode_dict(data):
+    rv = {}
+    for key, value in data.items():
+        if hasattr(value, 'encode'):
+            value = value.encode('utf-8')
+        elif isinstance(value, list):
+            value = _decode_list(value)
+        elif isinstance(value, dict):
+            value = _decode_dict(value)
+        rv[key] = value
+    return rv
+{% endhighlight %}
+
+
+### My test file:
+
+
+{% highlight python %}
+#test.py
+import json
+import sys
+
+def _decode_dict(data):
+    rv = {}
+    for key, value in data.items():
+        if hasattr(value, 'encode'):
+            value = value.encode('utf-8')
+        elif isinstance(value, list):
+            value = _decode_list(value)
+        elif isinstance(value, dict):
+            value = _decode_dict(value)
+        rv[key] = value
+    return rv
+
+def _decode_list(data):
+    rv = []
+    for item in data:
+        if hasattr(item, 'encode'):
+            item = item.encode('utf-8')
+        elif isinstance(item, list):
+            item = _decode_list(item)
+        elif isinstance(item, dict):
+            item = _decode_dict(item)
+        rv.append(item)
+    return rv
+
+with open('config.json', 'rb') as f:
+    try:
+        config = json.loads(f.read().decode('utf8'), object_hook=_decode_dict)
+        print(config)
+    except ValueError as e:
+        logging.error('found an error in config.json: %s', e.message)
+        sys.exit(1)
+
+{% endhighlight %}
+
+
+### Related configure file `config.json`:
+
+```
+{
+    "server":"my_server_ip",
+    "server_port":8388,
+    "local_address": "127.0.0.1",
+    "local_port":1080,
+    "password":"mypassword",
+    "timeout":300,
+    "method":"aes-256-cfb",
+    "fast_open": false,
+    "workers": 1
+}
+```
+
+When I run ***python test.py***, I get the following result:
+
+```
+{u'server_port': 8388, u'local_port': 1080, u'workers': 1, u'fast_open': False, u'server': 'my_server_ip', u'timeout': 300, u'local_address': '127.0.0.1', u'password': 'mypassword', u'method': 'aes-256-cfb'}
+```
+
+when I run ***python3 test.py***, I will get this result:
+
+```
+{'password': b'mypassword', 'server': b'my_server_ip', 'method': b'aes-256-cfb', 'server_port': 8388, 'fast_open': False, 'local_address': b'127.0.0.1', 'workers': 1, 'timeout': 300, 'local_port': 1080}
+```
+
+
+
+
 
 
 |文件名|功能|备注|
@@ -57,98 +191,6 @@ date:   2017-07-19
 - 给字符串赋值时，总是带有一个前缀'b'，比如：v4addr=b'8.8.4.4'，是为了兼容py3标准，[参考这里](http://stackoverflow.com/questions/6269765/what-does-the-b-character-do-in-front-of-a-string-literal)
 
 
-## 測試程序
-
-
-#### config = json.loads(f.read().decode('utf8'), object_hook=_decode_dict)
-
-{% highlight python %}
-#shadowsocks-2.6/shadowsocks/utils.py
-       if config_path:
-            logging.info('loading config from %s' % config_path)
-            with open(config_path, 'rb') as f:#Read configure file
-                try:
-                    config = json.loads(f.read().decode('utf8'),
-                                        object_hook=_decode_dict)	# I don't understand this line
-                except ValueError as e:
-                    logging.error('found an error in config.json: %s',
-                                  e.message)
-                    sys.exit(1)
-{% endhighlight %}
-
-
-This is my test file:
-
-
-{% highlight python %}
-#test.py
-import json
-import sys
-
-def _decode_dict(data):
-    rv = {}
-    for key, value in data.items():
-        if hasattr(value, 'encode'):
-            value = value.encode('utf-8')
-        elif isinstance(value, list):
-            value = _decode_list(value)
-        elif isinstance(value, dict):
-            value = _decode_dict(value)
-        rv[key] = value
-    return rv
-
-def _decode_list(data):
-    rv = []
-    for item in data:
-        if hasattr(item, 'encode'):
-            item = item.encode('utf-8')
-        elif isinstance(item, list):
-            item = _decode_list(item)
-        elif isinstance(item, dict):
-            item = _decode_dict(item)
-        rv.append(item)
-    return rv
-
-with open('config.json', 'rb') as f:
-    try:
-        config = json.loads(f.read().decode('utf8'), object_hook=_decode_dict)
-        print(config)
-    except ValueError as e:
-        logging.error('found an error in config.json: %s', e.message)
-        sys.exit(1)
-
-{% endhighlight %}
-
-config.json is as follow.
-
-```
-{
-    "server":"my_server_ip",
-    "server_port":8388,
-    "local_address": "127.0.0.1",
-    "local_port":1080,
-    "password":"mypassword",
-    "timeout":300,
-    "method":"aes-256-cfb",
-    "fast_open": false,
-    "workers": 1
-}
-```
-
-I run `python test.py` and get the following result:
-
->{u'server_port': 8388, u'local_port': 1080, u'workers': 1, u'fast_open': False, u'server': 'my_server_ip', u'timeout': 300, u'local_address': '127.0.0.1', u'password': 'mypassword', u'method': 'aes-256-cfb'}
-
-when I run `python3 test.py`, I will get this result:
-
->{'password': b'mypassword', 'server': b'my_server_ip', 'method': b'aes-256-cfb', 'server_port': 8388, 'fast_open': False, 'local_address': b'127.0.0.1', 'workers': 1, 'timeout': 300, 'local_port': 1080}
-
-
-
-
-
-
-
 
 
 
@@ -156,6 +198,6 @@ when I run `python3 test.py`, I will get this result:
 
 ## Reference
 
- - python.org[json — JSON encoder and decoder](https://docs.python.org/2/library/json.html)
- - github.com[shadowsocks-analysis](https://github.com/lixingcong/shadowsocks-analysis)
+ - [json — JSON encoder and decoder](https://docs.python.org/2/library/json.html)
+ - [shadowsocks-analysis](https://github.com/lixingcong/shadowsocks-analysis)
 
