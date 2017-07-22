@@ -74,7 +74,7 @@ date:   2017-07-19
                     logging.error('found an error in config.json: %s',
                                   e.message)
                     sys.exit(1)
-{% highlight python %}
+{% endhighlight %}
 
 
 This is my test file:
