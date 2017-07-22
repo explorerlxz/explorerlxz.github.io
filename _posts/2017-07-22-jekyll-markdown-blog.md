@@ -25,7 +25,7 @@ In your blog, use these line to hide your code/text:
 {% endhighlight %}
 
 
-I should learn more about html and css to make my blog better.
+Maybe I should learn more about html and css to make my blog better.
 
 
 

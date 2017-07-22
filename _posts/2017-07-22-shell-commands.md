@@ -4,6 +4,34 @@ title:  "Interesting shell commands"
 date:   2017-07-22
 ---
 
+### ssh related
+
+Suppose the ip address of your vps is 66.66.66.66, and your ssh port is 22222.
+
+Then you can log in with
+
+```
+ssh centos@66.66.66.66 -p 22222
+```
+
+And you can download file with
+
+```
+scp -P 22222 centos@66.66.66.66:/home/centos/.vim.rc  ./
+```
+
+
+### avconv/ffmpeg related
+
+Screenrecord with the following command
+
+```
+avconv -f x11grab -r 25 -s 1920x1080 -i :0.0+0,0 -vcodec libx264  -threads 0 date.mkv
+```
+
+
+### Statistics the number and type of files
+
 I downloaded [linux kernel 4.12.3 tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.12.3.tar.xz), and found there are 64052 file in the tarball, now I want to know exactly how many kind of files there, how many files of each kind.
 
 I run the following command:
@@ -229,10 +257,6 @@ cat linux-4.12.3-dir.tree | grep -E -o '*\.[A-Za-z0-9]{1,19}$' | sort -n |uniq -
 
 ### commands analysis
 
-{% highlight sh %}
-tar -tf linux-4.12.3.tar.xz > linux-4.12.3-dir.tree
-cat linux-4.12.3-dir.tree | grep -E -o '*\.[A-Za-z0-9]{1,19}$' | sort -n |uniq -c | sort -nr
-{% endhighlight %}
 
 ```shell
 tar -tf linux-4.12.3.tar.xz //list the contents of an archive
