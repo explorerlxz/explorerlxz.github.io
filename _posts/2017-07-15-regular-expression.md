@@ -5,6 +5,11 @@ date:   2017-07-15
 ---
 
 
+### update on 2017-0722
+
+
+
+### update on 2017-0715
 
 
 最近想要從youtube下載一個俄劇[《Не родись красивой》](https://www.youtube.com/playlist?list=PLHtqAN7MRo3jhIL0gaVNLtl2r7IJBM3N9)，總共有200個視頻，只要找到所有的鏈接，在vps上用youtube-dl下載一下，bypy upload到百度雲就行了，但是一個一個去複製粘貼鏈接太麻煩了。
