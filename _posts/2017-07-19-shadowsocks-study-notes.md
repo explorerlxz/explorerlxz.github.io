@@ -5,16 +5,44 @@ date:   2017-07-19
 ---
 
 
+### The line ***config = json.loads(f.read().decode('utf8'), object_hook=_decode_dict)*** in shadowsocks-2.6/shadowsocks/utils.py
 
-# Testing program
+I don't understand what *json.loads* mean, what are *f.read().decode('utf8')* doing, what is *object_hook* and what is *_decode_dict*. In [this page](https://docs.python.org/2/library/json.html#json-to-py-table), I find the following information.
 
 
-## The line ***config = json.loads(f.read().decode('utf8'), object_hook=_decode_dict)*** in shadowsocks-2.6/shadowsocks/utils.py
+>json.loads(s[, encoding[, cls[, object_hook[, parse_float[, parse_int[, parse_constant[, object_pairs_hook[, **kw]]]]]]]])
+>       Deserialize s (a str or unicode instance containing a JSON document) to a Python object using this conversion table.
 
+|JSON  |  Python|
+|:-|:-|
+|object | dict|
+|array  | list|
+|string | unicode|
+|number (int) |  int, long|
+|number (real) |  float|
+|true  |  True|
+|false |  False|
+|null  |  None|
+
+
+>object_hook is an optional function that will be called with the result of any object literal decoded (a dict). The return value of object_hook will be used instead of the dict. This feature can be used to implement custom decoders (e.g. JSON-RPC class hinting).
+
+
+We run shadowsocks server with ***ssserver -c config.json*** and run client with ***sslocal -c config.json***, I think function *json.loads()* here must be trying to convert a JSON document to a python dict. And *object_hook* is an optional function, but I find no matter I use *object_hook=_decode_dict* or not, this line return the same value. So, I still don't understand very well.
+
+I try to test *f.read().decode('utf8')* with the following line:
+
+```
+>>> with open('config.json', 'rb') as f:
+...     test=f.read().decode('utf8')
+... 
+>>> test
+u'{\n    "server":"my_server_ip",\n    "server_port":8388,\n    "local_address": "127.0.0.1",\n    "local_port":1080,\n    "password":"mypassword",\n    "timeout":300,\n    "method":"aes-256-cfb",\n    "fast_open": false,\n    "workers": 1\n}'
+>>> 
+```
 
 ### The original code block:
 
----
 
 {% highlight python %}
 #shadowsocks-2.6/shadowsocks/utils.py
@@ -27,8 +55,8 @@ def get_config(is_local):
             logging.info('loading config from %s' % config_path)
             with open(config_path, 'rb') as f:#Read configure file
                 try:
-                    config = json.loads(f.read().decode('utf8'),
-                                        object_hook=_decode_dict)	# I don't understand this line
+                    config = json.loads(f.read().decode('utf8'),    #
+                                        object_hook=_decode_dict)	# not understand 
                 except ValueError as e:
                     logging.error('found an error in config.json: %s',
                                   e.message)
@@ -54,7 +82,7 @@ def _decode_list(data):
 def _decode_dict(data):
     rv = {}
     for key, value in data.items():
-        if hasattr(value, 'encode'):
+        if hasattr(value, 'encode'):        # not understand
             value = value.encode('utf-8')
         elif isinstance(value, list):
             value = _decode_list(value)
@@ -109,7 +137,7 @@ with open('config.json', 'rb') as f:
 {% endhighlight %}
 
 
-### Related configure file `config.json`:
+### Related configure file *config.json*:
 
 ---
 
@@ -129,15 +157,15 @@ with open('config.json', 'rb') as f:
 
 When I run ***python test.py***, I get the following result:
 
-```
-{u'server_port': 8388, u'local_port': 1080, u'workers': 1, u'fast_open': False, u'server': 'my_server_ip', u'timeout': 300, u'local_address': '127.0.0.1', u'password': 'mypassword', u'method': 'aes-256-cfb'}
-```
+
+>{u'server_port': 8388, u'local_port': 1080, u'workers': 1, u'fast_open': False, u'server': 'my_server_ip', u'timeout': 300, u'local_address': '127.0.0.1', u'password': 'mypassword', u'method': 'aes-256-cfb'}
+
 
 when I run ***python3 test.py***, I will get this result:
 
-```
-{'password': b'mypassword', 'server': b'my_server_ip', 'method': b'aes-256-cfb', 'server_port': 8388, 'fast_open': False, 'local_address': b'127.0.0.1', 'workers': 1, 'timeout': 300, 'local_port': 1080}
-```
+
+>{'password': b'mypassword', 'server': b'my_server_ip', 'method': b'aes-256-cfb', 'server_port': 8388, 'fast_open': False, 'local_address': b'127.0.0.1', 'workers': 1, 'timeout': 300, 'local_port': 1080}
+
 
 
 
