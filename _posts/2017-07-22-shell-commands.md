@@ -15,218 +15,215 @@ cat linux-4.12.3-dir.tree | grep -E -o '*\.[A-Za-z0-9]{1,19}$' | sort -n |uniq -
 {% endhighlight %}
 
 
-Then I got this result:
 
-<div onclick="ishidden('X')">有东西藏起来了!</div>
+<div onclick="ishidden('X')">Then I got this result, Press here to see 206 more lines</div>
 <div id="X" style="display:none;">
-```
-  24934 .c
-  19613 .h
-   3817 .txt
-   1441 .S
-   1330 .dts
-   1024 .dtsi
-    763 .rst
-    201 .gitignore
-    165 .sh
-    162 .json
-    109 .ihex
-     63 .py
-     59 .cocci
-     46 .boot
-     45 .svg
-     40 .tc
-     37 .pl
-     32 .config
-     30 .debug
-     25 .HEX
-     19 .lds
-     15 .tmpl
-     15 .conf
-     14 .ppm
-     14 .fuc
-     12 .fuc3
-     10 .exceptions
-     10 .awk
-      9 .y
-      8 .l
-      8 .8
-      8 .1
-      7 .scr
-      7 .sa
-      7 .in
-      7 .H16
-      7 .dot
-      6 .xsl
-      6 .cpp
-      6 .asn1
-      5 .uc
-      5 .po
-      5 .inc
-      5 .fuc5
-      5 .cpu
-      4 .tbl
-      4 .map
-      4 .ld
-      4 .include
-      4 .fail
-      4 .doc
-      3 .sed
-      3 .pm
-      3 .mk
-      3 .html
-      3 .gdbinit
-      3 .csv
-      3 .am
-      2 .um
-      2 .ubsan
-      2 .seq
-      2 .rules
-      2 .reg
-      2 .powerpc
-      2 .postlink
-      2 .platforms
-      2 .platform
-      2 .pbm
-      2 .openrisc
-      2 .nommu
-      2 .megaraid
-      2 .kasan
-      2 .inl
-      2 .inf
-      2 .ids
-      2 .gperf
-      2 .fax
-      2 .FAQ
-      2 .build
-      2 .asm
-      2 .arm
-      1 .ymfsb
-      1 .xs
-      1 .x86
-      1 .x25
-      1 .wimax
-      1 .WARNING
-      1 .vringh
-      1 .vim
-      1 .vdec2
-      1 .uni
-      1 .tex
-      1 .syncppp
-      1 .sym53c8xx
-      1 .SRC
-      1 .sphinx
-      1 .soc
-      1 .smp
-      1 .script
-      1 .sb1000
-      1 .rest
-      1 .README
-      1 .qlge
-      1 .qlcnic
-      1 .qla4xxx
-      1 .qla3xxx
-      1 .qla2xxx
-      1 .preempt
-      1 .PL
-      1 .perf
-      1 .pass
-      1 .OSS
-      1 .ore
-      1 .normal
-      1 .netlink
-      1 .net
-      1 .ncr53c8xx
-      1 .modules
-      1 .modsign
-      1 .modpost
-      1 .modinst
-      1 .modes
-      1 .modbuiltin
-      1 .mm
-      1 .mISDN
-      1 .mips
-      1 .md
-      1 .mak
-      1 .mailmap
-      1 .machine
-      1 .lpfc
-      1 .loopback
-      1 .locks
-      1 .Locking
-      1 .libfdt
-      1 .LIB
-      1 .lib
-      1 .kmemcheck
-      1 .kgdb
-      1 .ipw2200
-      1 .ipw2100
-      1 .ips
-      1 .iosched
-      1 .ignore
-      1 .i2400m
-      1 .hz
-      1 .hysdn
-      1 .hp300
-      1 .host
-      1 .HiSax
-      1 .help
-      1 .headersinst
-      1 .glade
-      1 .gitattributes
-      1 .gigaset
-      1 .gif
-      1 .generic
-      1 .gate
-      1 .fwinst
-      1 .fuc4
-      1 .fuc0s
-      1 .freezer
-      1 .FPE
-      1 .FlashPoint
-      1 .FIRST
-      1 .feature
-      1 .extrawarn
-      1 .example
-      1 .dtc
-      1 .dtbinst
-      1 .DOC
-      1 .diversion
-      1 .dino
-      1 .devices
-      1 .default
-      1 .def
-      1 .DAC960
-      1 .cycladesZ
-      1 .css
-      1 .cputype
-      1 .copyright
-      1 .concap
-      1 .common
-      1 .cocciconfig
-      1 .clean
-      1 .checkpatch
-      1 .char
-      1 .ChangeLog
-      1 .cfg
-      1 .cert
-      1 .cc
-      1 .CAPI
-      1 .cache
-      1 .bus
-      1 .buddha
-      1 .binfmt
-      1 .bc
-      1 .avmb1
-      1 .audio
-      1 .arcmsr
-      1 .arch
-      1 .aic7xxx
-      1 .aic79xx
-      1 .agh
-      1 .AddingFirmware
-      1 .ac
-```
+  24934 .c<br />
+  19613 .h<br />
+   3817 .txt<br />
+   1441 .S<br />
+   1330 .dts<br />
+   1024 .dtsi<br />
+    763 .rst<br />
+    201 .gitignore<br />
+    165 .sh<br />
+    162 .json<br />
+    109 .ihex<br />
+     63 .py<br />
+     59 .cocci<br />
+     46 .boot<br />
+     45 .svg<br />
+     40 .tc<br />
+     37 .pl<br />
+     32 .config<br />
+     30 .debug<br />
+     25 .HEX<br />
+     19 .lds<br />
+     15 .tmpl<br />
+     15 .conf<br />
+     14 .ppm<br />
+     14 .fuc<br />
+     12 .fuc3<br />
+     10 .exceptions<br />
+     10 .awk<br />
+      9 .y<br />
+      8 .l<br />
+      8 .8<br />
+      8 .1<br />
+      7 .scr<br />
+      7 .sa<br />
+      7 .in<br />
+      7 .H16<br />
+      7 .dot<br />
+      6 .xsl<br />
+      6 .cpp<br />
+      6 .asn1<br />
+      5 .uc<br />
+      5 .po<br />
+      5 .inc<br />
+      5 .fuc5<br />
+      5 .cpu<br />
+      4 .tbl<br />
+      4 .map<br />
+      4 .ld<br />
+      4 .include<br />
+      4 .fail<br />
+      4 .doc<br />
+      3 .sed<br />
+      3 .pm<br />
+      3 .mk<br />
+      3 .html<br />
+      3 .gdbinit<br />
+      3 .csv<br />
+      3 .am<br />
+      2 .um<br />
+      2 .ubsan<br />
+      2 .seq<br />
+      2 .rules<br />
+      2 .reg<br />
+      2 .powerpc<br />
+      2 .postlink<br />
+      2 .platforms<br />
+      2 .platform<br />
+      2 .pbm<br />
+      2 .openrisc<br />
+      2 .nommu<br />
+      2 .megaraid<br />
+      2 .kasan<br />
+      2 .inl<br />
+      2 .inf<br />
+      2 .ids<br />
+      2 .gperf<br />
+      2 .fax<br />
+      2 .FAQ<br />
+      2 .build<br />
+      2 .asm<br />
+      2 .arm<br />
+      1 .ymfsb<br />
+      1 .xs<br />
+      1 .x86<br />
+      1 .x25<br />
+      1 .wimax<br />
+      1 .WARNING<br />
+      1 .vringh<br />
+      1 .vim<br />
+      1 .vdec2<br />
+      1 .uni<br />
+      1 .tex<br />
+      1 .syncppp<br />
+      1 .sym53c8xx<br />
+      1 .SRC<br />
+      1 .sphinx<br />
+      1 .soc<br />
+      1 .smp<br />
+      1 .script<br />
+      1 .sb1000<br />
+      1 .rest<br />
+      1 .README<br />
+      1 .qlge<br />
+      1 .qlcnic<br />
+      1 .qla4xxx<br />
+      1 .qla3xxx<br />
+      1 .qla2xxx<br />
+      1 .preempt<br />
+      1 .PL<br />
+      1 .perf<br />
+      1 .pass<br />
+      1 .OSS<br />
+      1 .ore<br />
+      1 .normal<br />
+      1 .netlink<br />
+      1 .net<br />
+      1 .ncr53c8xx<br />
+      1 .modules<br />
+      1 .modsign<br />
+      1 .modpost<br />
+      1 .modinst<br />
+      1 .modes<br />
+      1 .modbuiltin<br />
+      1 .mm<br />
+      1 .mISDN<br />
+      1 .mips<br />
+      1 .md<br />
+      1 .mak<br />
+      1 .mailmap<br />
+      1 .machine<br />
+      1 .lpfc<br />
+      1 .loopback<br />
+      1 .locks<br />
+      1 .Locking<br />
+      1 .libfdt<br />
+      1 .LIB<br />
+      1 .lib<br />
+      1 .kmemcheck<br />
+      1 .kgdb<br />
+      1 .ipw2200<br />
+      1 .ipw2100<br />
+      1 .ips<br />
+      1 .iosched<br />
+      1 .ignore<br />
+      1 .i2400m<br />
+      1 .hz<br />
+      1 .hysdn<br />
+      1 .hp300<br />
+      1 .host<br />
+      1 .HiSax<br />
+      1 .help<br />
+      1 .headersinst<br />
+      1 .glade<br />
+      1 .gitattributes<br />
+      1 .gigaset<br />
+      1 .gif<br />
+      1 .generic<br />
+      1 .gate<br />
+      1 .fwinst<br />
+      1 .fuc4<br />
+      1 .fuc0s<br />
+      1 .freezer<br />
+      1 .FPE<br />
+      1 .FlashPoint<br />
+      1 .FIRST<br />
+      1 .feature<br />
+      1 .extrawarn<br />
+      1 .example<br />
+      1 .dtc<br />
+      1 .dtbinst<br />
+      1 .DOC<br />
+      1 .diversion<br />
+      1 .dino<br />
+      1 .devices<br />
+      1 .default<br />
+      1 .def<br />
+      1 .DAC960<br />
+      1 .cycladesZ<br />
+      1 .css<br />
+      1 .cputype<br />
+      1 .copyright<br />
+      1 .concap<br />
+      1 .common<br />
+      1 .cocciconfig<br />
+      1 .clean<br />
+      1 .checkpatch<br />
+      1 .char<br />
+      1 .ChangeLog<br />
+      1 .cfg<br />
+      1 .cert<br />
+      1 .cc<br />
+      1 .CAPI<br />
+      1 .cache<br />
+      1 .bus<br />
+      1 .buddha<br />
+      1 .binfmt<br />
+      1 .bc<br />
+      1 .avmb1<br />
+      1 .audio<br />
+      1 .arcmsr<br />
+      1 .arch<br />
+      1 .aic7xxx<br />
+      1 .aic79xx<br />
+      1 .agh<br />
+      1 .AddingFirmware<br />
+      1 .ac<br />
 </div>
 
 
