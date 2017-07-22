@@ -226,7 +226,7 @@ Then I got this result:
       1 .ac
 ```
 
-### analysis shell commands
+### commands analysis
 
 {% highlight sh %}
 tar -tf linux-4.12.3.tar.xz > linux-4.12.3-dir.tree
