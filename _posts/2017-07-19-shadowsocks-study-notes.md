@@ -9,10 +9,12 @@ date:   2017-07-19
 # Testing program
 
 
-## This line ***config = json.loads(f.read().decode('utf8'), object_hook=_decode_dict)*** in shadowsocks-2.6/shadowsocks/utils.py
+## The line ***config = json.loads(f.read().decode('utf8'), object_hook=_decode_dict)*** in shadowsocks-2.6/shadowsocks/utils.py
 
 
 ### The original code block:
+
+---
 
 {% highlight python %}
 #shadowsocks-2.6/shadowsocks/utils.py
@@ -65,6 +67,7 @@ def _decode_dict(data):
 
 ### My test file:
 
+---
 
 {% highlight python %}
 #test.py
@@ -107,6 +110,8 @@ with open('config.json', 'rb') as f:
 
 
 ### Related configure file `config.json`:
+
+---
 
 ```
 {
