@@ -17,6 +17,8 @@ cat linux-4.12.3-dir.tree | grep -E -o '*\.[A-Za-z0-9]{1,19}$' | sort -n |uniq -
 
 Then I got this result:
 
+<div onclick="ishidden('X')">有东西藏起来了!</div>
+<div id="X" style="display:none;">
 ```
   24934 .c
   19613 .h
@@ -225,6 +227,8 @@ Then I got this result:
       1 .AddingFirmware
       1 .ac
 ```
+</div>
+
 
 ### commands analysis
 
