@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Intresting shell commands"
+title:  "Interesting shell commands"
 date:   2017-07-22
 ---
 
-I download [linux kernel 4.12.3 tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.12.3.tar.xz), I found there are 64052 file in the tarball, now I want to know exactly how many kind of files there, how many files of each kind.
+I downloaded [linux kernel 4.12.3 tarball](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.12.3.tar.xz), and found there are 64052 file in the tarball, now I want to know exactly how many kind of files there, how many files of each kind.
 
-I use the following command:
+I run the following command:
 
 
 {% highlight sh %}
@@ -14,7 +14,8 @@ tar -tf linux-4.12.3.tar.xz > linux-4.12.3-dir.tree
 cat linux-4.12.3-dir.tree | grep -E -o '*\.[A-Za-z0-9]{1,19}$' | sort -n |uniq -c | sort -nr
 {% endhighlight %}
 
-Then I get this result:
+
+Then I got this result:
 
 ```
   24934 .c
@@ -223,4 +224,20 @@ Then I get this result:
       1 .agh
       1 .AddingFirmware
       1 .ac
+```
+
+### analysis shell commands
+
+{% highlight sh %}
+tar -tf linux-4.12.3.tar.xz > linux-4.12.3-dir.tree
+cat linux-4.12.3-dir.tree | grep -E -o '*\.[A-Za-z0-9]{1,19}$' | sort -n |uniq -c | sort -nr
+{% endhighlight %}
+
+```shell
+tar -tf linux-4.12.3.tar.xz //list the contents of an archive
+cat linux-4.12.3-dir.tree   //concatenate files and print on the standard output
+grep -E -o '*\.[A-Za-z0-9]{1,19}$'  //get the file type info
+sort -n                             //sort lines of text files, compare according to string numerical value
+uniq -c                             //report or omit repeated lines, prefix lines by the number of occurrences
+sort -nr                            //sort lines of text files, compare according to string numerical value, reverse the result of comparisons
 ```
