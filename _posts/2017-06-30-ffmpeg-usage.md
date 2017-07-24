@@ -25,6 +25,20 @@ rm input.mp4 output-temp.mp4
 [xwr@arch jianji]$
 ```
 
+
+## 批量處理視頻
+
+```shell
+#!/bin/bash
+
+for i in *.mp4; do avconv -i "$i" -c:v libx264 -strict -2 -crf 32  ../avconv/"$i"; done
+```
+
+把當前目錄下所有mp4文件重新編碼，保存到另一個目錄中
+
+
+
+
 # FFMPEG 使用说明
 
 ## 截图命令
