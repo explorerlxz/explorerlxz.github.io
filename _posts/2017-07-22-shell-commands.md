@@ -4,6 +4,20 @@ title:  "Interesting shell commands"
 date:   2017-07-22
 ---
 
+### unzip Chinese gbk named files
+
+```
+unzip -O cp936 *.zip
+```
+
+### delete space in file name
+
+```
+ls|while read i;do  
+    mv "$i" $(echo $i|tr -d ' ') 2>/dev/null  
+done 
+```
+
 ### ssh related
 
 Suppose the ip address of your vps is 66.66.66.66, and your ssh port is 22222.
@@ -20,6 +34,14 @@ And you can download file with
 scp -P 22222 centos@66.66.66.66:/home/centos/.vim.rc  ./
 ```
 
+
+### rename files
+
+Rename all jpe file to jpg
+
+```
+rename 's/\.jpe$/\.jpg/' *.jpe
+```
 
 ### avconv/ffmpeg related
 
