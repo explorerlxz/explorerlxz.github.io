@@ -10,13 +10,34 @@ date:   2017-07-22
 unzip -O cp936 *.zip
 ```
 
-### delete space in file name
+### Rename files/documents
+
+delete space in file name
 
 ```
 ls|while read i;do  
     mv "$i" $(echo $i|tr -d ' ') 2>/dev/null  
 done 
 ```
+Change space to '\_'
+
+```
+for file in *; do mv "$file" `echo $file | tr ' ' '_'` ; done
+```
+
+
+Change first five bytes to 'Github'
+
+```
+for i in `ls`; do mv -f $i `echo $i | sed 's/^...../Github/'`; done
+```
+
+change lower case to upper case
+
+```
+for i in `ls`; do mv -f $i `echo $i | tr a-z A-Z`; done
+```
+
 
 ### ssh related
 
