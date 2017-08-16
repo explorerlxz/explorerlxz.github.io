@@ -10,6 +10,16 @@ date:   2017-07-22
 unzip -O cp936 *.zip
 ```
 
+### tar 
+
+pack all files in current directory
+
+```
+for file in `ls`; do tar -cvzf $file.tar.gz $file; done
+```
+
+
+
 ### Rename files/documents
 
 delete space in file name
