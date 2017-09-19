@@ -10,6 +10,17 @@ date:   2017-07-22
 unzip -O cp936 *.zip
 ```
 
+批量解压windows下到文件
+
+```
+#!/bin/bash
+
+for i in *.zip;
+    do unzip -O cp936 "$i";
+done
+```
+
+
 ### tar 
 
 pack all files in current directory
