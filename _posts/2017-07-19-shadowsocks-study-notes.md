@@ -17,17 +17,58 @@ def get_table(key):
     m = hashlib.md5()
     m.update(key)
     s = m.digest()
-    (a, b) = struct.unpack('<QQ', s)
-    table = [c for c in string.maketrans('', '')]#看不懂这行代码
+    (a, b) = struct.unpack('<QQ', s)#把密码的md5值分为两个unsi
+    table = [c for c in string.maketrans('', '')]#
     for i in xrange(1, 1024):
         table.sort(lambda x, y: int(a % (ord(x) + i) - a % (ord(y) + i)))
     return table
 ```
 
+在命令行下测试了一下，结果如下：
 
 
+```
+Python 2.7.12 (default, Nov 19 2016, 06:48:10) 
+[GCC 5.4.0 20160609] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import string
+>>> import struct
+>>> import hashlib
+>>> key="foobar!"
+>>> m=hashlib.md5()
+>>> m.update(key)
+>>> s=m.digest()
+>>> (a,b)=struct.unpack('<QQ',s)
+>>> table=[c for c in string.maketrans('','')]
+>>> for i in xrange(1,1024):
+...     table.sort(lambda x,y: int(a %(ord(x)+i)-a%(ord(y)+i)))
+... 
+>>> table
+['<', '5', 'T', '\x8a', '\xd9', '^', 'X', '\x17', "'", '\xf2', '\xdb', '#', '\x0c', '\x9d', '\xa5', '\xb5', '\xff', '\x8f', 'S', '\xf7', '\xa2', '\x10', '\x1f', '\xd1', '\xbe', '\xab', 's', 'A', '&', ')', '\x15', '\xf5', '\xec', '.', 'y', '>', '\xa6', '\xe9', ',', '\x9a', '\x99', '\x91', '\xe6', '1', '\x80', '\xd8', '\xad', '\x1d', '\xf1', 'w', '@', '\xe5', '\xc2', 'g', '\x83', 'n', '\x1a', '\xc5', '\xda', ';', '\xcc', '8', '\x1b', '"', '\x8d', '\xdd', '\x95', '\xef', '\xc0', '\xc3', '\x18', '\x9b', '\xaa', '\xb7', '\x0b', '\xfe', '\xd5', '%', '\x89', '\xe2', 'K', '\xcb', '7', '\x13', 'H', '\xf8', '\x16', '\x81', '!', '\xaf', '\xb2', '\n', '\xc6', 'G', 'M', '$', 'q', '\xa7', '0', '\x02', 'u', '\x8c', '\x8e', 'B', '\xc7', '\xe8', '\xf3', ' ', '{', '6', '3', 'R', '9', '\xb1', 'W', '\xfb', '\x96', '\xc4', '\x85', '\x05', '\xfd', '\x82', '\x08', '\xb8', '\x0e', '\x98', '\xe7', '\x03', '\xba', '\x9f', 'L', 'Y', '\xe4', '\xcd', '\x9c', '`', '\xa3', '\x92', '\x12', '[', '\x84', 'U', 'P', 'm', '\xac', '\xb0', 'i', '\r', '2', '\xeb', '\x7f', '\x00', '\xbd', '_', 'b', '\x88', '\xfa', '\xc8', 'l', '\xb3', '\xd3', '\xd6', 'j', '\xa8', 'N', 'O', 'J', '\xd2', '\x1e', 'I', '\xc9', '\x97', '\xd0', 'r', 'e', '\xae', '\\', '4', 'x', '\xf0', '\x0f', '\xa9', '\xdc', '\xb6', 'Q', '\xe0', '+', '\xb9', '(', 'c', '\xb4', '\x11', '\xd4', '\x9e', '*', 'Z', '\t', '\xbf', '-', '\x06', '\x19', '\x04', '\xde', 'C', '~', '\x01', 't', '|', '\xce', 'E', '=', '\x07', 'D', 'a', '\xca', '?', '\xf4', '\x14', '\x1c', ':', ']', '\x86', 'h', '\x90', '\xe3', '\x93', 'f', 'v', '\x87', '\x94', '/', '\xee', 'V', 'p', 'z', 'F', 'k', '\xd7', 'd', '\x8b', '\xdf', '\xe1', '\xa4', '\xed', 'o', '}', '\xcf', '\xa0', '\xbb', '\xf6', '\xea', '\xa1', '\xbc', '\xc1', '\xf9', '\xfc']
+>>> s
+'\xbb\xc3\xd5/\xe5\xb7\xb3\x1d`c\xb1\xde\t\xb9\x8c\x80'
+>>> a
+2140256442909049787
+>>> b
+9262981985636279136L
+>>> 
+```
 
+计算md5值时，python中hexdigest()与命令行下`echo "string" | md5sum`返回的值不一样，原因是echo在字符串后加了个换行符号\n，使用`echo -n "string" | md5sum`的话与python中返回的一样。
 
+```python
+>>> test=hashlib.md5()
+>>> test.update("string")
+>>> test.hexdigest()
+'b45cffe084dd3d20d928bee85e7b0f21'
+```
+
+```shell
+$ echo "string" | md5sum
+b80fa55b1234f1935cea559d9efbc39a  -
+$ echo -n "string" | md5sum
+b45cffe084dd3d20d928bee85e7b0f21  -
+```
 
 
 
