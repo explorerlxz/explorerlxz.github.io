@@ -1,8 +1,40 @@
 ---
 layout: post
-title:  "Learn python from shadowsocks 2.6"
+title:  "Learn python from shadowsocks"
 date:   2017-07-19
 ---
+
+Shadowsocks的libc版本貌似很庞大，最新版本的Shadowsocks和ShadowsocksR对我来说也不容易理解。于是我打算学习下早期的版本，顺便锻炼一下git命令。
+
+
+
+2012年版的Shadowsocks只有local.py和server.py两个代码文件。
+
+Server.py中有这样一段代码，现在不太理解。
+
+```python
+def get_table(key):
+    m = hashlib.md5()
+    m.update(key)
+    s = m.digest()
+    (a, b) = struct.unpack('<QQ', s)
+    table = [c for c in string.maketrans('', '')]#看不懂这行代码
+    for i in xrange(1, 1024):
+        table.sort(lambda x, y: int(a % (ord(x) + i) - a % (ord(y) + i)))
+    return table
+```
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ### The line ***config = json.loads(f.read().decode('utf8'), object_hook=_decode_dict)*** in shadowsocks-2.6/shadowsocks/utils.py
