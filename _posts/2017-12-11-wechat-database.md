@@ -4,7 +4,9 @@ title:  "解密微信数据库"
 date:   2017-12-11
 ---
 
-微信聊天记录位于`/data/data/com.tencent.mm/MicroMsg/xxxxxxxxxxxxxxxx/EnMicroMsg.db`。
+首先需要一个root过的Android机。
+
+找到微信聊天，`/data/data/com.tencent.mm/MicroMsg/xxxxxxxxxxxxxxxx/EnMicroMsg.db`，复制到电脑上。
 
 解密方法，安装sqlcipher，获取手机IMEI以及微信的UIN，计算出KEY=md5(IMEI+UIN)subString(0,7)。
 
@@ -20,7 +22,7 @@ PRAGMA kdf_iter = 4000; # 迭代次数，需要指定。否则新版sqlcipher无
 ![](https://explorerlxz.github.io/images/wechat-database/decrypte.png)
 
 
-此方法现在(2017-12-11)仍然可用。
+此方法在WeiXin-V6.5.22上仍然可用。
 
 
 ## Reference
