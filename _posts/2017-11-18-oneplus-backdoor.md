@@ -11,15 +11,15 @@ date:   2017-11-18
 This app is a system app made by @Qualcomm and customised by @OnePlus. It's used by the operator in the factory to test the devices.
 
 
-[](https://explorerlxz.github.io/images/oneplus-backdoor/DOhukUhX4AAeSxr.jpg)
+![](https://explorerlxz.github.io/images/oneplus-backdoor/DOhukUhX4AAeSxr.jpg)
 
 If you have an OnePlus device, I'm pretty sure you have this app pre-installed. To check open Settings -> Apps -> Menu -> Show system apps and search EngineerMode in the app list to check
 
 With telephony secret code you can access to manual tests like GPS test, root status test as stated in this article https://www.xda-developers.com/oneplus-hardware-diagnostic-tests … pointed by @AleGrechi . But can do better...
 
-[](https://explorerlxz.github.io/images/oneplus-backdoor/DOhzttTW0AM90oN.jpg)
+![](https://explorerlxz.github.io/images/oneplus-backdoor/DOhzttTW0AM90oN.jpg)
 
-[](https://explorerlxz.github.io/images/oneplus-backdoor/DOh0DhoWkAAG85F.jpg)
+![](https://explorerlxz.github.io/images/oneplus-backdoor/DOh0DhoWkAAG85F.jpg)
 
 You can access to the "main" activity by sending this command: adb shell am start http://com.android .engineeringmode/.EngineeringMode You will have access to everything, not just the manual test.
 
