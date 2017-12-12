@@ -6,9 +6,9 @@ date:   2017-12-11
 
 首先需要一个root过的Android机。
 
-找到微信聊天，`/data/data/com.tencent.mm/MicroMsg/xxxxxxxxxxxxxxxx/EnMicroMsg.db`，复制到电脑上。
+找到微信聊天数据库`/data/data/com.tencent.mm/MicroMsg/xxxxxxxxxxxxxxxx/EnMicroMsg.db`，复制到电脑上。
 
-解密方法，安装sqlcipher，获取手机IMEI以及微信的UIN，计算出KEY=md5(IMEI+UIN)subString(0,7)。
+解密方法，安装sqlcipher，获取手机IMEI以及微信的UIN，计算出`KEY=md5(IMEI+UIN).subString(0,7)`。
 
 然后执行`sqlcipher EnMicroMsg.db`
 
