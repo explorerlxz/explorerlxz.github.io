@@ -1,8 +1,29 @@
 ---
 layout: post
 title:  "Interesting shell commands"
-date:   2017-07-22
+date:   2017-07-30
 ---
+
+## 批量修改文件夹及文件权限
+
+
+单独设置某个目录下所有文件夹的权限
+
+```
+find -type d -exec chmod 0755 {} \;
+```
+
+单独设置某个目录下所有文件的权限
+
+```
+find -not -type d -exec chmod 644 {} \;
+```
+
+如果要单独设置文件夹的所有者，只需要将命令改成如下即可：
+
+```
+find -type d -exec chown root.root {} \;
+```
 
 ### unzip Chinese gbk named files
 
@@ -330,3 +351,8 @@ sort -n                             //sort lines of text files, compare accordin
 uniq -c                             //report or omit repeated lines, prefix lines by the number of occurrences
 sort -nr                            //sort lines of text files, compare according to string numerical value, reverse the result of comparisons
 ```
+
+
+# Reference
+
+ -[Linux 批量修改文件夹、文件的权限和所有者](https://www.htcp.net/807.html)
