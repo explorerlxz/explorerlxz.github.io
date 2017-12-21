@@ -24,6 +24,18 @@ find -not -type d -exec chmod 644 {} \;
 ```
 find -type d -exec chown root.root {} \;
 ```
+## 查找目录下的所有文件中是否含有某个字符串
+
+```
+find .| xargs grep -ri "class"
+```
+
+查找目录下所有文件，并且打印含有该字符串的文件名
+
+```
+find . | xargs grep -ri "class" -l
+```
+
 
 ### unzip Chinese gbk named files
 
@@ -356,3 +368,4 @@ sort -nr                            //sort lines of text files, compare accordin
 # Reference
 
  -[Linux 批量修改文件夹、文件的权限和所有者](https://www.htcp.net/807.html)
+ -[Linux查找目录下的所有文件中是否含有某个字符串](https://ifhw.github.io/2016/03/25/find-the-file-contains-certain-strings/)
