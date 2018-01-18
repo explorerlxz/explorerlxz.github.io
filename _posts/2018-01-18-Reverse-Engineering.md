@@ -27,7 +27,7 @@ Chapter 5, "Obfuscation", requires a good understanding of assembly language and
 
 ## Reference Books
 
- - The C Programming Language, by Brian Kernighan and Dennis Ritchie(Prentice Hall, 1988)
+ - `The C Programming Language`, by Brian Kernighan and Dennis Ritchie(Prentice Hall, 1988)
  - C: A Reference Manual, by Samuel Harbison (PrenticeHall, 2002)
  - Expert C Programming: Deep C Secrets, by Peter van der Linden (Prentice Hall, 1994)
  - Compilers: Principles, Techniques, and Tools, by Alfred Aho, Ravi Sethi, and Jeffrey Ullman, (Prentice Hall, 1994)
