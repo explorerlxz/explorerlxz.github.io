@@ -28,21 +28,21 @@ Chapter 5, "Obfuscation", requires a good understanding of assembly language and
 ## Reference Books
 
  - `The C Programming Language`, by Brian Kernighan and Dennis Ritchie(Prentice Hall, 1988)
- - C: A Reference Manual, by Samuel Harbison (PrenticeHall, 2002)
- - Expert C Programming: Deep C Secrets, by Peter van der Linden (Prentice Hall, 1994)
- - Compilers: Principles, Techniques, and Tools, by Alfred Aho, Ravi Sethi, and Jeffrey Ullman, (Prentice Hall, 1994)
- - Linkers and Loaders, by John Levine (Morgan Kaufmann, 1999)
- - Advanced Compiler Design and Implementation, by Steven Muchnick (Morgan Kaufmann, 1997)
- - Intel 64 and IA-32 Architectures Software Developer’s Manual, Volume 1: Basic Architecture
- - Cortex-A Series Programmer’s Guide
- - ARM Architecture Reference Manual ARMv7-Aand ARMv7-R Edition
- - Structured Computer Organization by Andrew Tanenbaum (Prentice Hall, 1998)
- - Microsoft PE and COFF Specification
- - Modern Operating Systems, by Andrew Tanenbaum (Prentice Hall, 2005)
- - Windows NT Device Driver Development, by Peter Viscarola and Anthony Mason (New Riders Press, 1998)
- - What Makes It Page? The Windows 7 (x64) Virtual Memory Manager, by Enrico Martignetti (CreateSpace Independent Publishing Platform, 2012)
- - Windows System Programming, by Johnson Hart (Addison-Wesley Professional, 2010)
- - Windows via C/C++, by Jeffrey Richter and Christophe Nasarre (Microsoft Press, 2007)
- - Inside Windows Debugging: A Practical Guide to Debugging and Tracing Strategies in Windows, by Tarik Soulami (Microsoft Press, 2012)
- - Advanced Windows Debugging, by Mario Hewardt and Daniel Pravat (Addison-Wesley Professional, 2007)
- - Surreptitious Software: Obfuscation, Watermarking, and Tamperproofi ng for Software Protection, by Christian Collberg and Jasvir Nagra (Addison-Wesley Professional, 2009)
+ - `C: A Reference Manual`, by Samuel Harbison (PrenticeHall, 2002)
+ - `Expert C Programming: Deep C Secrets`, by Peter van der Linden (Prentice Hall, 1994)
+ - `Compilers: Principles, Techniques, and Tools`, by Alfred Aho, Ravi Sethi, and Jeffrey Ullman, (Prentice Hall, 1994)
+ - `Linkers and Loaders`, by John Levine (Morgan Kaufmann, 1999)
+ - `Advanced Compiler Design and Implementation`, by Steven Muchnick (Morgan Kaufmann, 1997)
+ - `Intel 64 and IA-32 Architectures Software Developer’s Manual, Volume 1: Basic Architecture`
+ - `Cortex-A Series Programmer’s Guide`
+ - `ARM Architecture Reference Manual ARMv7-Aand ARMv7-R Edition`
+ - `Structured Computer Organization` by Andrew Tanenbaum (Prentice Hall, 1998)
+ - `Microsoft PE and COFF Specification`
+ - `Modern Operating Systems`, by Andrew Tanenbaum (Prentice Hall, 2005)
+ - `Windows NT Device Driver Development`, by Peter Viscarola and Anthony Mason (New Riders Press, 1998)
+ - `What Makes It Page? The Windows 7 (x64) Virtual Memory Manager`, by Enrico Martignetti (CreateSpace Independent Publishing Platform, 2012)
+ - `Windows System Programming`, by Johnson Hart (Addison-Wesley Professional, 2010)
+ - `Windows via C/C++`, by Jeffrey Richter and Christophe Nasarre (Microsoft Press, 2007)
+ - `Inside Windows Debugging: A Practical Guide to Debugging and Tracing Strategies in Windows`, by Tarik Soulami (Microsoft Press, 2012)
+ - `Advanced Windows Debugging`, by Mario Hewardt and Daniel Pravat (Addison-Wesley Professional, 2007)
+ - `Surreptitious Software: Obfuscation, Watermarking, and Tamperproofi ng for Software Protection`, by Christian Collberg and Jasvir Nagra (Addison-Wesley Professional, 2009)
