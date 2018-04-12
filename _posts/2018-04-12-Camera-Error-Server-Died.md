@@ -123,3 +123,47 @@ public class CameraErrorCallback
         void onError(int error, Camera camera);
     };
 ```
+
+
+>如果说Android适配的话，Android相机方面的适配是最让人头疼的问题了。如果你的项目中有关于自定义相机方面的模块，可以说你多多少少会碰到这些异常：（1）setParamters failed（2）Camera Error 100（3）startPreView() failed（4）getParamters failed（5）拍出的照片方向倒转了（6）拍出的照片左右反即镜面效果。在这只列出
+
+>目前所能记忆起的一些常见异常，后期如果有后续发现 ，此篇博文会继续更新，主要收集相机模块的常见异常与解决方法。
+
+>首先说说为什么相机这块的适配很麻烦，因为Android的机型过多，而且很多厂商在Rom的时候对相机这块有修改。记得第一次遇到相机的适配问题是集成二维码扫描的功能，在魅族X4的手机上，直接相机不能预览也就是不能捕获数据，后来是把预览帧率的代码给注释了，然后就正常了。
+
+```java
+    /**
+     * Media server died. In this case, the application must release the
+     * Camera object and instantiate a new one.
+     * @see Camera.ErrorCallback
+     */
+    public static final int CAMERA_ERROR_SERVER_DIED = 100;
+```
+
+
+>以上是Android SDK 对于Camera Error 100的描述，大概意思我相信大家都能看懂，就是要release并且重新初始化一个Camera对象，然而我在采用此种方法的时候，并不能很好的解决问题。关于此种错误我也Google了好久也在stackoverflow上看了很多帖子，每个人解决该问题的方式不一样，确切的说是针对不同的机型出现Camera Error 100的原因不同。
+
+>下面我列举几个例子以及解决方式：
+
+>（1）机型：HUAWEI GRA-CL00。
+
+>原因：设置了错误的VideoSize，该手机的getSupportedVideoSizes（）方法返回为null。
+
+>解决方法：注释掉MediaRecorder的setVideoSize()方法。
+
+>（2）机型：Lenovo S810t
+
+>原因：设置的VideoEncoder不支持。
+
+>解决方法：采用默认的值，即.setVideoEncoder(MediaRecorder.VideoEncoder.DEFAULT);
+
+>（3）机型：HTC Z715e和AMOI N820
+
+>原因：4.0.x一个已知的问题，一开始录像会报：freeAllBuffersExceptCurrentLocked called but mQueue is not empty。这个暂时没有解决掉，但是大家可以看下下面一句话：
+
+>This is a known problem with Android 4.0.x and it doesn't look like there is an easy fix for it.
+
+## Reference
+
+ -[Android相机开发中遇到的一些问题](http://www.voidcn.com/article/p-qvlqlcdy-bpn.html)
+ 
