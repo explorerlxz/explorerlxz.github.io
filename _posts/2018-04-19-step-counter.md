@@ -5,6 +5,9 @@ date:   2018-04-19
 ---
 
 
+
+>platform/frameworks/base/core/java/android/hardware/SystemSensorManager.java
+
 ## 通过修改Framework代码
 
  在SystemSensorManager.java的内部类 SensorEventQueue中的方法dispatchSensorEvent，做如下修改：
