@@ -30,3 +30,5 @@ krandown:
     input: GFM
     syntax_highlighter: rouge
 #markdown: rdiscount
+
+theme: jekyll-theme-time-machine
